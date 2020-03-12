@@ -21,9 +21,6 @@ jobs:
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
-    
-    - name: Change directories
-      run: cd src
 
     - name: Get dependencies
       run: |
@@ -34,7 +31,7 @@ jobs:
         fi
 
     - name: Build
-      run: go build -v .
+      run: go build -v src
   
   test:
     name: Test
