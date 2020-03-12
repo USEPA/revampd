@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl -s https://codecov.io/bash | bash -s -- \
+                    -t "${CODECOV_TOKEN}" \
+                    -n "${CIRCLE_BUILD_NUM}" \
+                    -y .codecov.yml \
+                    -Z || echo 'Codecov upload failed'

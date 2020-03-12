@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Run once after space creation, before any apps are pushed.
+
+set -e
+
+CF_ORG="epa-prototyping"
+CF_SPACE="dev-ampd"
+DB_NAME="revampd-psql" # bound to app in etc/manifests/api.yml
+
+cf target -o $CF_ORG -s $CF_SPACE
+
+# The shared-psql service instance is for prototype environments only;
+# it is a shared database, does not have backups, is not for
+# sensitive/production data, but does not incur additional costs.
+# This service instance type uses AWS RDS 9.4.x.
+# For more details see:
+# https://cloud.gov/docs/services/relational-database/
+cf create-service aws-rds shared-psql $DB_NAME

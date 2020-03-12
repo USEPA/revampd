@@ -1,0 +1,52 @@
+# These docker services serve several purposes:
+# - a self-contained Go build environment
+# - a local execution environment, simulating our
+#   Cloud Foundry (cloud.gov) deployment.
+
+version: '2'
+
+services:
+  # Endpoint for the public API, which is also used by the frontend.
+  # Local stand-in for the go buildpack in Cloud Foundry (see: etc/manifests/api.yml).
+  api:
+    build:
+      # path to the Dockerfile -- contains the commands/description of
+      # how to assemble the base image used for this service
+      context: .
+      dockerfile: etc/docker/api.Dockerfile
+    env_file:
+      # used to set key/value pairs that set the environment variables
+      # for the execution context of the command run in the Dockerfile
+      - .env
+    volumes:
+      # mount the current directory into the container so we can edit the
+      # source with tools in the host OS, but build them in the container
+      - .:/go/src/github.com/18F/revampd
+      # create `vendor` as a separate volume so the host OS mount above
+      # doesn't mask/overlay the true vendor tree which is populated in
+      # the Dockerfile
+      - /go/src/github.com/18F/revampd/src/vendor
+    ports:
+      # map port 8080 on the host OS to the port defined in .env
+      - "8080:${PORT}"
+    depends_on:
+      - db
+  
+  # Endpoint for the frontend, serving static assets.
+  # Local stand-in for the staticfile buildpack in Cloud Foundry (see: etc/manifests/frontend.yml).
+  web:
+    # Use stock NGINX container from Docker Hub
+    image: nginx
+    volumes:
+      - ./html:/usr/share/nginx/html
+    ports:
+      # Stock container listens on port 80 
+      - "9080:80"
+
+  # Endpoint for the PostgreSQL relational database used by the API backend.
+  # Local stand-in for the Cloud Foundry service instance named `revampd-psql`
+  # (see: bin/setup-cloudgov).
+  db:
+    image: postgres:9.4
+    ports:
+      - "5432:5432"
