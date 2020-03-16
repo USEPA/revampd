@@ -3,7 +3,7 @@
 all: clean test build
 
 test:
-	GOLANG_ENV=test go test -coverprofile=coverage.txt -covermode=atomic -cover github.com/18F/revampd/src
+	GOLANG_ENV=test go test -coverprofile=coverage.txt -covermode=atomic -cover github.com/USEPA/revampd/src
 
 build:
 	go build -o ../bin/revampd

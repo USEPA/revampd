@@ -21,11 +21,11 @@ services:
     volumes:
       # mount the current directory into the container so we can edit the
       # source with tools in the host OS, but build them in the container
-      - .:/go/src/github.com/18F/revampd
+      - .:/go/src/github.com/USEPA/revampd
       # create `vendor` as a separate volume so the host OS mount above
       # doesn't mask/overlay the true vendor tree which is populated in
       # the Dockerfile
-      - /go/src/github.com/18F/revampd/src/vendor
+      - /go/src/github.com/USEPA/revampd/src/vendor
     ports:
       # map port 8080 on the host OS to the port defined in .env
       - "8080:${PORT}"
