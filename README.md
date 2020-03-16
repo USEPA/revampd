@@ -1,6 +1,6 @@
 # revAMPD
 
-[![Build Status][badge_ci]][5] [![Code Climate][badge_cc]][7] [![Go Report Card][badge_rc]][9] [![Codecov][badge_cov]][8] [![Known Vulnerabilities][badge_snyk]][6]
+![](https://github.com/USEPA/revampd/workflows//badge.svg)
 
 This is a demo project for the re-engineering of the EPA's Air Markets Program Data (AMPD) website.
 
