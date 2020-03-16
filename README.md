@@ -1,6 +1,6 @@
 # revAMPD
 
-![](https://github.com/USEPA/revampd/workflows//badge.svg)
+![](https://github.com/USEPA/revampd/workflows/Build/badge.svg)
 
 This is a demo project for the re-engineering of the EPA's Air Markets Program Data (AMPD) website.
 
@@ -23,7 +23,7 @@ This project uses [Docker][2] containers to provide a self-contained build and t
 Clone the repository and `cd` into it:
 
 ```shell
-git clone https://github.com/18F/revampd
+git clone https://github.com/USEPA/revampd
 cd revampd
 ```
 
@@ -67,19 +67,3 @@ docker-compose build
 
 Be sure to commit the `dep`-generated updates to `src/Gopkg.toml` and `src/Gopkg.lock`.
 
-
-[badge_ci]: https://circleci.com/gh/18F/revampd.svg?style=shield
-[badge_snyk]: https://user-images.githubusercontent.com/37100189/64040853-cb2bb580-cb12-11e9-9312-bbc63f2c3d2c.png
-[badge_cc]: https://codeclimate.com/github/18F/revampd/badges/gpa.svg
-[badge_cov]: https://codecov.io/gh/18F/revampd/branch/develop/graph/badge.svg
-[badge_rc]: https://goreportcard.com/badge/github.com/18F/revampd
-[1]: https://git-scm.com/
-[2]: https://docker.com
-[3]: https://docs.docker.com/compose
-[4]: https://golang.github.io/dep/
-[5]: https://circleci.com/gh/18F/revampd
-<!--- Can't easily change URL from hello-ampd to revampd without re-creating and re-inviting everyone --->
-[6]: https://app.snyk.io/org/hello-ampd/projects
-[7]: https://codeclimate.com/github/18F/revampd
-[8]: https://codecov.io/gh/18F/revampd
-[9]: https://goreportcard.com/report/github.com/18F/revampd
