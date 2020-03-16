@@ -11,6 +11,10 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      PORT: 2019
+      DATABASE_URL: postgres://postgres@db:5432/postgres?sslmode=disable
+ 
     steps:
 
     - name: Check out code
