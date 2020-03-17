@@ -14,8 +14,8 @@ jobs:
     
     env:
       SOURCE_DIR: '' #insert source director
-      SPACE_DEPLOYER_USERNAME: ${{ secrets.deployerusername }}
-      SPACE_DEPLOYER_PW: ${{ secrets.deployerpw }}
+      CF_USERNAME: ${{ secrets.deployerusername }}
+      CF_PASSWORD: ${{ secrets.deployerpw }}
         
     steps:
 
@@ -24,5 +24,4 @@ jobs:
 
     - name: Build and test
       run: docker-compose run --rm api make
-      
-        
+             
