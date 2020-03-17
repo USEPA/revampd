@@ -14,8 +14,8 @@ jobs:
     
     env:
       SOURCE_DIR: '' #insert source director
-      SPACE_DEPLOYER_USERNAME: {{ secrets.deployerusername }}
-      SPACE_DEPLOYER_PW: {{ secrets.deployerpw }}
+      SPACE_DEPLOYER_USERNAME: ${{ secrets.deployerusername }}
+      SPACE_DEPLOYER_PW: ${{ secrets.deployerpw }}
         
     steps:
 
