@@ -11,7 +11,12 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
- 
+    
+    env:
+      SOURCE_DIR: '' #insert source director
+      SPACE_DEPLOYER_USERNAME: {{ secrets.deployerusername }}
+      SPACE_DEPLOYER_PW: {{ secrets.deployerpw }}
+        
     steps:
 
     - name: Check out code
@@ -19,3 +24,5 @@ jobs:
 
     - name: Build and test
       run: docker-compose run --rm api make
+      
+        
