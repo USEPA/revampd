@@ -24,25 +24,5 @@ jobs:
 
     - name: Build and test
       run: docker-compose run --rm api make
-
-  deploy:
-    #machine:
-    #working-directory:
-    #environment:
-    steps:
-      - login:
-        name: CF Login
-        command: |
-          cf_run() {
-            docker run \
-            --rm \
-            -v $HOME/.cf:/root/.cf \
-            -v $PWD:/app \
-            -w /app \
-            governmentpaas/cf-cli \
-            cf "$@"
-        }
-      - run:
-        name: Deploy revampd
-        command: |
-        #insert cf push commands 
+    #- name: Deploy to cloud
+      
