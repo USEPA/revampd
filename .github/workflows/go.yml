@@ -24,6 +24,10 @@ jobs:
     - name: Build and test
       run: docker-compose run --rm api make
     
-    - name: Deploy to cloudgov
+    - name: Make the cloudgov-deploy script executable
       if: success() 
+      run: chmod +x ./bin/deploy-cloudgov
+    
+    - name: Deploy the app to cloud.gov
+      if: success()
       run: ./bin/deploy-cloudgov
