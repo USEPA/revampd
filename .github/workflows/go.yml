@@ -1,4 +1,4 @@
-name: Build
+name: Build, test, deploy
 
 on:
   push:
@@ -9,11 +9,10 @@ on:
 jobs:
 
   build:
-    name: Build
+    name: Build, test, deploy
     runs-on: ubuntu-latest
     
     env:
-      SOURCE_DIR: '' #insert source director
       CF_USERNAME: ${{ secrets.deployerusername }}
       CF_PASSWORD: ${{ secrets.deployerpw }}
         
@@ -24,5 +23,7 @@ jobs:
 
     - name: Build and test
       run: docker-compose run --rm api make
-    #- name: Deploy to cloud
-      
+    
+    - name: Deploy to cloudgov
+      if: success() 
+      run: ./bin/deploy-cloudgov
