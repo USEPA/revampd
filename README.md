@@ -45,7 +45,14 @@ docker-compose up --abort-on-container-exit --build
 
 Log messages will be printed to the console's `stdout`.
 
-Once the `revampd_web_1`, `revampd_db_1`, and `revampd_api_1` instances have started up, a web browser can be directed to `http://localhost:9080` to access the frontend. The API backend can be access directly at `http://localhost:8080`.
+Once the `revampd_web_1`, `revampd_db_1`, and `revampd_api_1` instances have started up, a web browser can be directed to `http://localhost:9080` to access the frontend. The API backend can be access directly at `http://localhost:8080`.  If there is no Postgres data directory present, the database will initialize by calling the initialization script and loading the test data. 
+
+Access the database:
+
+```shell
+docker exec -it revampd_db_1 sh
+psql -U postgres
+```
 
 ### Stopping and cleaning up the local server
 
