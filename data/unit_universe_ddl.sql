@@ -2,7 +2,7 @@
 --  DDL for Table UNIT_UNIVERSE
 --------------------------------------------------------
 
-CREATE TABLE "UNIT_UNIVERSE" 
+CREATE TABLE UNIT_UNIVERSE 
    (	
   OP_YEAR INTEGER NOT NULL,
 	UNIT_ID INTEGER NOT NULL, 
