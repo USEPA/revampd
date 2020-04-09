@@ -1880,7 +1880,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,3721,3,PA    ,Philadelphia Refinery,52106,150140,CS0001,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,8758,,1964204.5,2676286.6,,,49.0
 2017,3722,3,PA    ,Merck & Company - West Point,52149,39,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,1873,43145.7,,602953.9,,,24.8
 2017,3723,3,PA    ,Merck & Company - West Point,52149,40,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,7803,254483.5,,3301334.5,,,43.9
-2017,3727,3,DE    ,Delaware City Refinery,52193,21H1,,OPR,SIPNOX,Process Heater,,,,,,,,,
 2017,3728,3,DE    ,Delaware City Refinery,52193,21H701,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2017,3730,3,DE    ,Delaware City Refinery,52193,37H1,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2017,3732,3,DE    ,Delaware City Refinery,52193,42H123,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
@@ -1928,7 +1927,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,3789,3,PA    ,"Domtar Paper Company, LLC",54638,41,CS1,OPR,SIPNOX,Dry bottom wall-fired boiler,Coal,COAL,3648,,529359.1,779735.4,,,44.6
 2017,3790,2,NJ    ,Lakewood,54640,1001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3886,321205.6,,3793535.7,226081.3,1.6,34.6
 2017,3791,2,NJ    ,Lakewood,54640,2001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3810,313527.3,,3715467.5,221368.2,1.5,38.6
-2017,3794,6,TX    ,Port Neches,54748,GT1,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2017,3795,9,CA    ,Goal Line,54749,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,635,23661.3,,204327.7,12143.8,0.1,1.4
 2017,3796,10,OR    ,Hermiston,54761,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4817,821805.0,,6521248.9,387552.2,2.0,50.8
 2017,3797,10,OR    ,Hermiston,54761,2,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5102,898891.5,,7027167.3,417618.8,2.1,57.2
@@ -2053,8 +2051,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,3941,6,LA    ,R S Cogen LLC,55117,RS-6,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7796,1484026.0,,14035183.0,834093.6,4.2,399.2
 2017,3945,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7083,1427279.0,,12114231.0,780814.3,3.6,83.0
 2017,3946,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7247,1479060.6,,12005149.4,772247.8,3.7,93.0
-2017,3949,6,TX    ,NAFTA Region Olefins Complex,55122,N-20A,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
-2017,3950,6,TX    ,NAFTA Region Olefins Complex,55122,N-20B,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2017,3951,6,TX    ,Magic Valley Generating Station,55123,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,4074,1216743.7,,8000563.8,475458.4,2.4,68.4
 2017,3952,6,TX    ,Magic Valley Generating Station,55123,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7054,2143828.9,,14750260.1,876586.2,4.4,94.6
 2017,3953,9,AZ    ,Griffith Energy Project,55124,P1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,3989,947485.8,,6749036.6,401090.5,2.0,34.8
@@ -2594,8 +2590,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,4862,9,AZ    ,Mesquite Generating Station,55481,6,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,6550,1534722.9,,10930776.5,649601.3,3.3,45.0
 2017,4863,10,WA    ,Goldendale Generating Station,55482,CT-1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4955,1126794.2,,7691177.8,457076.9,2.3,39.1
 2017,4893,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,531,9315.5,,102713.5,5981.1,0.0,0.4
-2017,4894,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
-2017,4899,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3436,804044.5,,5657294.9,336203.1,1.7,77.1
 2017,4900,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3339,781420.2,,5559347.9,330384.2,1.7,77.3
 2017,4901,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB3,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3623,854341.0,,6102959.4,362691.6,1.8,87.1
 2017,4902,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB4,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3623,843220.6,,5961846.6,354303.7,1.8,89.2
@@ -2604,13 +2598,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,4905,8,CO    ,Frank Knutson Station,55505,BR1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,142,6659.7,,81517.3,4861.6,0.0,1.2
 2017,4906,8,CO    ,Frank Knutson Station,55505,BR2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,120,5232.4,,66467.5,3960.4,0.0,1.0
 2017,4913,9,CA    ,CalPeak Power - Panoche,55508,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,588,15724.0,,169836.1,9967.1,0.1,0.9
-2017,4914,9,CA    ,CalPeak Power - Panoche,55508,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2017,4917,9,CA    ,CalPeak Power - Border,55510,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,562,12731.7,,136365.0,8010.9,0.0,0.8
-2017,4918,9,CA    ,CalPeak Power - Border,55510,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2017,4921,9,CA    ,Cuyamaca Peak Energy,55512,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,381,8820.3,,97495.8,5705.2,0.0,0.7
-2017,4922,9,CA    ,Cuyamaca Peak Energy,55512,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2017,4923,9,CA    ,CalPeak Power - Enterprise,55513,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,524,12392.6,,131740.1,7709.0,0.0,1.1
-2017,4924,9,CA    ,CalPeak Power - Enterprise,55513,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2017,4925,9,NV    ,Apex Generating Station,55514,CTG01,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,6979,1555867.2,,10922232.2,649188.4,3.3,55.4
 2017,4926,9,NV    ,Apex Generating Station,55514,CTG02,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7082,1578507.4,,11063274.7,657557.6,3.3,57.1
 2017,4927,1,CT    ,"Wallingford Energy, LLC",55517,CT01,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,899,30689.9,,272433.2,16191.5,0.1,1.2
@@ -2640,10 +2630,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,5038,6,OK    ,Spring Creek Power Plant,55651,CT-04,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,59,2798.3,,35443.7,2106.1,0.0,0.4
 2017,5039,4,GA    ,Hartwell Energy Facility,70454,MAG1,,OPR,"ARP,CSNOX,CSOSG1,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,748,74472.5,,923723.6,54907.4,0.3,31.5
 2017,5040,4,GA    ,Hartwell Energy Facility,70454,MAG2,,OPR,"ARP,CSNOX,CSOSG1,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,196,16403.2,,213690.9,12707.3,0.1,7.7
-2017,5041,4,TN    ,Chemours Johnsonville,880001,JVD1,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2017,5042,4,TN    ,Chemours Johnsonville,880001,JVD2,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2017,5043,4,TN    ,Chemours Johnsonville,880001,JVD3,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2017,5044,4,TN    ,Chemours Johnsonville,880001,JVD4,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
 2017,5046,3,DE    ,NRG Energy Center Dover,10030,2,,OPR,"ARP,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,1263,62208.7,,513728.4,30530.1,0.2,2.2
 2017,5047,3,DE    ,NRG Energy Center Dover,10030,3,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,352,13201.2,,120412.5,7325.2,0.0,4.7
 2017,5055,3,DC    ,GSA Central Heating,880004,3,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,342,,17339.7,20218.7,,,2.8
@@ -3496,7 +3482,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,89490,4,SC    ,Cross,130,3,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,8133,3949119.4,,39035732.1,4005063.9,1174.6,1308.5
 2017,89491,4,SC    ,Cross,130,4,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,6049,2912850.0,,30392551.7,3118275.5,926.9,1008.3
 2017,89492,2,NJ    ,Paulsboro Refining Company LLC,50628,780001,,OPR,SIPNOX,Process Heater,Process Gas,GAS,,,,,,,
-2017,89493,6,TX    ,Freeport Energy Center,56152,CTG1,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2017,89495,9,CA    ,Grayson Power Plant,377,9,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,520,16067.3,,159269.3,9464.5,0.0,1.9
 2017,89496,8,UT    ,Nebo Power Station,56177,U1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,3567,357974.1,,2657285.7,157914.7,0.8,23.0
 2017,89497,5,IL    ,Venice,913,CT03,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,217,27375.0,,266869.3,15859.5,0.1,5.6
@@ -3907,7 +3892,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,90237,5,WI    ,Germantown Power Plant,6253,P37,,OPR,"CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Diesel Oil,OIL,72,,,14789.4,1197.4,0.4,8.9
 2017,90238,9,NV    ,Tracy,2336,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8460,1767491.8,,12976727.5,771189.4,3.9,35.9
 2017,90239,9,NV    ,Tracy,2336,9,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8506,1773902.3,,13293688.0,790023.0,4.0,37.1
-2017,90240,3,PA    ,United Refining Company,880099,1,,OPR,SIPNOX,Other boiler,,,,,,,,,
 2017,90241,4,KY    ,H L Spurlock,6041,4,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Circulating fluidized bed boiler,Coal,COAL,5919,1570103.9,,13053040.6,1339247.0,793.2,407.5
 2017,90242,6,TX    ,Nueces Bay,3441,8,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3081,588409.6,,4354721.4,258797.8,1.3,40.7
 2017,90243,6,TX    ,Nueces Bay,3441,9,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,2961,577944.0,,4275348.9,254078.0,1.3,33.6
@@ -4198,9 +4182,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,90730,7,NE    ,J Street,2250,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,26,157.6,,3512.5,,0.3,1.9
 2017,90731,7,KS    ,Quindaro,1295,CT2,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,56,684.3,,25425.3,,0.0,15.3
 2017,90732,7,KS    ,Quindaro,1295,CT3,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,103,1540.1,,45152.9,,0.0,27.1
-2017,90733,6,TX    ,Oyster Creek Unit VIII,54676,GT81,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2017,90734,6,TX    ,Oyster Creek Unit VIII,54676,GT82,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2017,90735,6,TX    ,Oyster Creek Unit VIII,54676,GT83,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2017,90740,7,NE    ,Jones Street,2290,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,21,319.5,,10748.8,,0.3,6.4
 2017,90741,7,NE    ,Jones Street,2290,2,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,27,421.3,,14715.9,,0.4,8.8
 2017,90742,7,NE    ,Sarpy County Station,2292,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,434,9264.7,,344485.8,,0.8,121.3
@@ -4345,13 +4326,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,90986,8,UT    ,Sunnyside Cogeneration Associates,50951,1,,OPR,MATS,Circulating fluidized bed boiler,Coal,COAL,8053,472466.7,,,,,
 2017,90987,10,AK    ,Healy Power Plant,6288,1,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
 2017,90988,10,AK    ,Healy Power Plant,6288,2,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
-2017,90989,9,HI    ,AES Hawaii,10673,BLRA,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2017,90990,9,HI    ,AES Hawaii,10673,BLRB,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2017,90991,6,OK    ,Frontier Generating Station,50558,CC01,,OPR,CSOSG2,Combined cycle,Natural Gas,GAS,895,74091.3,,632997.7,,,39.2
 2017,90998,5,OH    ,Oregon Clean Energy Center,59764,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,3785,1361911.5,,8967111.9,532903.5,2.7,26.4
 2017,90999,5,OH    ,Oregon Clean Energy Center,59764,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,3884,1403481.1,,9218031.7,547813.6,2.8,25.7
-2017,91000,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR1,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2017,91001,8,MT    ,Colstrip Energy Limited Partnership,10784,CBLR,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2017,91007,2,NY    ,Covanta Niagara,50472,R1B02,,OPR,"RGGI,SIPNOX",Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,0,,,,,,
 2017,91021,4,FL    ,Port Everglades,617,PECT5C,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7080,2620125.9,,16496503.2,980406.5,5.0,57.9
 2017,91022,4,FL    ,Port Everglades,617,PECT5A,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5851,2120073.8,,13353525.5,793618.7,4.0,48.2
@@ -4363,16 +4340,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,91030,6,TX    ,Antelope Elk Energy Center,57865,3,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,276,33929.9,,344051.5,20445.9,0.1,4.2
 2017,91033,5,OH    ,Carroll County Energy,59773,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,706,208275.5,,1502519.6,89291.5,0.5,11.8
 2017,91034,5,OH    ,Carroll County Energy,59773,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,728,221484.9,,1595302.3,94804.5,0.5,155.5
-2017,91035,2,PR    ,Palo Seco Steam Power Plant,880103,PS1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91036,2,PR    ,Palo Seco Steam Power Plant,880103,PS2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91037,2,PR    ,Palo Seco Steam Power Plant,880103,PS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91038,2,PR    ,Palo Seco Steam Power Plant,880103,PS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91039,2,PR    ,Aguirre Steam Power Plant,880105,AG1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91040,2,PR    ,Aguirre Steam Power Plant,880105,AG2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91041,2,PR    ,Costa Sur Steam Power Plant,880104,COS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91042,2,PR    ,Costa Sur Steam Power Plant,880104,COS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91043,2,PR    ,Costa Sur Steam Power Plant,880104,COS5,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91044,2,PR    ,Costa Sur Steam Power Plant,880104,COS6,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2017,91045,4,KY    ,Paradise,1378,PCC1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,5389,1465067.6,,10248778.7,609069.6,3.1,196.7
 2017,91046,4,KY    ,Paradise,1378,PCC2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,5447,1480706.1,,10348430.7,614994.7,3.1,205.5
 2017,91047,4,KY    ,Paradise,1378,PCC3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,3754,997648.6,,6988072.1,415290.8,2.1,127.4
@@ -4381,7 +4348,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,91050,4,KY    ,Paradise,1378,AUX3,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,513,,75067.2,100002.1,5946.3,,3.8
 2017,91051,5,MI    ,Alpine Power Plant,59926,AL1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,1565,238105.7,,2928644.5,172851.9,0.9,46.8
 2017,91052,5,MI    ,Alpine Power Plant,59926,AL2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,1604,244057.4,,2999467.4,177026.6,0.9,48.0
-2017,91053,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR2,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2017,91054,4,FL    ,Fort Myers,612,PFM3D,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,306,46758.6,,477865.9,29261.8,1.1,14.2
 2017,91055,4,FL    ,Fort Myers,612,PFM3C,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,527,83670.6,,858276.0,52959.0,2.5,373.4
 2017,91056,4,FL    ,Lauderdale,613,PFL6A,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,576,88904.5,,884715.0,54065.2,0.7,16.2
@@ -4389,34 +4355,15 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,91058,4,FL    ,Lauderdale,613,PFL6C,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,515,82280.9,,829060.6,50568.3,3.7,15.0
 2017,91059,4,FL    ,Lauderdale,613,PFL6D,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,382,59778.2,,605342.5,37337.5,0.7,17.5
 2017,91060,4,FL    ,Lauderdale,613,PFL6E,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,346,54440.0,,546536.9,34182.8,13.3,12.7
-2017,91069,9,HI    ,Honolulu Generating Station,764,16,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91070,9,HI    ,Honolulu Generating Station,764,17,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91071,9,HI    ,Kahe Generating Station,765,1,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91072,9,HI    ,Kahe Generating Station,765,2,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91073,9,HI    ,Kahe Generating Station,765,3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91074,9,HI    ,Kahe Generating Station,765,4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91075,9,HI    ,Kahe Generating Station,765,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91076,9,HI    ,Kahe Generating Station,765,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91077,9,HI    ,Waiau Generating Station,766,3,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91078,9,HI    ,Waiau Generating Station,766,4,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91079,9,HI    ,Waiau Generating Station,766,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91080,9,HI    ,Waiau Generating Station,766,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2017,91081,9,HI    ,Waiau Generating Station,766,7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91082,9,HI    ,Waiau Generating Station,766,8,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2017,91083,5,MI    ,Holland Energy Park,59093,10,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3144,179028.5,,1284991.0,76360.7,0.4,6.8
 2017,91084,5,MI    ,Holland Energy Park,59093,11,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,2899,164935.3,,1182371.1,70268.4,0.4,13.2
 2017,91085,9,AZ    ,Yuma Cogeneration Associates,54694,4101,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,399,13851.7,,134916.7,8017.9,0.0,6.4
 2017,91086,8,ND    ,Lonesome Creek Station,57943,CT4,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,2185,57865.3,,677771.7,40281.2,0.2,9.8
 2017,91087,8,ND    ,Lonesome Creek Station,57943,CT5,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,2164,60456.8,,695444.6,41330.2,0.2,11.4
-2017,91093,6,TX    ,Air Liquide Bayport Complex,10298,CG802A,,FUT,CSOSG2,Combustion turbine,,,,,,,,,
 2017,91094,3,WV    ,Union Carbide Corp. Institute Facility,880053,B017,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,539,,35183.6,48755.8,,,0.8
 2017,91103,3,WV    ,Union Carbide Corp. Institute Facility,880053,B016,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,561,,36357.8,51583.3,,,0.8
 2017,91104,3,MD    ,CPV St. Charles Energy Center,56846,GT1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,RGGI",Combined cycle,Pipeline Natural Gas,GAS,6113,1618056.0,,12771834.1,759007.6,3.8,39.0
 2017,91105,3,MD    ,CPV St. Charles Energy Center,56846,GT2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,RGGI",Combined cycle,Pipeline Natural Gas,GAS,6513,1687513.0,,13636349.6,810395.1,4.1,36.8
-2017,91112,2,PR    ,San Juan Steam Power Plant,880106,SJ7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91113,2,PR    ,San Juan Steam Power Plant,880106,SJ8,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91114,2,PR    ,San Juan Steam Power Plant,880106,SJ9,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2017,91115,2,PR    ,San Juan Steam Power Plant,880106,SJ10,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2017,91126,5,IL    ,Alsey Station,7818,ACT6,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,328,10374.2,,112997.6,6966.6,0.0,7.6
 2017,91130,5,IL    ,Wood River Refinery,880067,BLR19,,OPR,SIPNOX,Other boiler,Natural Gas,GAS,8706,,1282834.4,1919214.4,,,11.7
 2017,91147,4,NC    ,L V Sutton,2713,4,,OPR,"ARP,CSNOX,CSSO2G1,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,1178,45926.5,,561738.0,33471.4,0.2,24.3
@@ -4437,7 +4384,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2017,91221,3,PA    ,Trainer Refinery,880025,53,,OPR,SIPNOX,Other boiler,Process Gas,GAS,3672,,380792.8,673417.4,,,1.5
 2017,91222,4,TN    ,Johnsonville,3406,AUX1,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,404,,48725.4,62275.9,,,0.3
 2017,91223,4,TN    ,Johnsonville,3406,AUX2,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,288,,35307.9,45038.6,,,0.2
-2017,91225,2,NJ    ,Woodbridge Energy Center,57839,U200,,FUT,ARP,,,,,,,,,,
 2017,91230,3,PA    ,Pixelle Specialty Solutions,50397,38,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,2316,,329380.5,392316.2,,,5.2
 2017,91231,3,PA    ,Pixelle Specialty Solutions,50397,39,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,2591,,339954.6,445957.3,,,7.3
 2017,91241,9,CA    ,Algonquin Power Sanger,57564,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,709,20220.9,,210263.5,12494.1,0.1,2.0
@@ -6289,7 +6235,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,3721,3,PA    ,Philadelphia Refinery,52106,150140,CS0001,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,8554,,2075866.1,2728592.1,,,49.3
 2018,3722,3,PA    ,Merck & Company - West Point,52149,39,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,2297,57484.8,,792580.9,,,32.2
 2018,3723,3,PA    ,Merck & Company - West Point,52149,40,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,7152,227186.3,,2961901.1,,,40.0
-2018,3727,3,DE    ,Delaware City Refinery,52193,21H1,,OPR,SIPNOX,Process Heater,,,,,,,,,
 2018,3728,3,DE    ,Delaware City Refinery,52193,21H701,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2018,3730,3,DE    ,Delaware City Refinery,52193,37H1,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2018,3732,3,DE    ,Delaware City Refinery,52193,42H123,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
@@ -6337,7 +6282,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,3789,3,PA    ,"Domtar Paper Company, LLC",54638,41,CS1,OPR,SIPNOX,Dry bottom wall-fired boiler,Coal,COAL,3671,,539022.1,832941.6,,,19.5
 2018,3790,2,NJ    ,Lakewood,54640,1001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3307,267617.7,,3165131.8,190415.2,2.7,29.5
 2018,3791,2,NJ    ,Lakewood,54640,2001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3313,264127.3,,3149355.5,189266.6,2.6,37.4
-2018,3794,6,TX    ,Port Neches,54748,GT1,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2018,3795,9,CA    ,Goal Line,54749,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,526,20000.1,,172608.2,10258.1,0.1,1.3
 2018,3796,10,OR    ,Hermiston,54761,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7183,1377777.3,,10689056.9,635244.4,3.2,77.0
 2018,3797,10,OR    ,Hermiston,54761,2,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5328,1047463.0,,8013608.3,476240.7,2.4,59.8
@@ -6462,8 +6406,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,3941,6,LA    ,R S Cogen LLC,55117,RS-6,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7921,1315380.2,,13199709.2,784441.9,4.0,385.4
 2018,3945,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6869,1521681.8,,11751486.7,760380.9,3.5,96.9
 2018,3946,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7965,1744049.5,,13834862.2,895000.1,4.2,121.4
-2018,3949,6,TX    ,NAFTA Region Olefins Complex,55122,N-20A,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
-2018,3950,6,TX    ,NAFTA Region Olefins Complex,55122,N-20B,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2018,3951,6,TX    ,Magic Valley Generating Station,55123,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6059,1976705.4,,12806926.4,761092.2,3.8,85.6
 2018,3952,6,TX    ,Magic Valley Generating Station,55123,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5075,1611656.3,,10758267.0,639350.5,3.2,71.8
 2018,3953,9,AZ    ,Griffith Energy Project,55124,P1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5201,1154792.9,,8064782.4,479274.6,2.4,45.0
@@ -7003,7 +6945,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,4862,9,AZ    ,Mesquite Generating Station,55481,6,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7228,1755358.6,,12396250.4,736689.0,3.7,54.7
 2018,4863,10,WA    ,Goldendale Generating Station,55482,CT-1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4543,1122338.6,,7888106.0,468777.4,2.4,35.5
 2018,4893,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,524,11357.3,,123146.7,7170.3,0.0,0.6
-2018,4894,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2018,4899,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6168,1459894.6,,10363457.0,615888.1,3.1,147.4
 2018,4900,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5991,1413907.1,,10130544.5,602042.8,3.0,146.3
 2018,4901,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB3,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6016,1420270.2,,10025466.2,595800.0,3.0,153.8
@@ -7013,13 +6954,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,4905,8,CO    ,Frank Knutson Station,55505,BR1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,357,16905.7,,216917.0,12931.9,0.1,3.0
 2018,4906,8,CO    ,Frank Knutson Station,55505,BR2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,464,23202.7,,292411.2,17407.3,0.1,4.4
 2018,4913,9,CA    ,CalPeak Power - Panoche,55508,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,561,14314.0,,155336.8,9116.2,0.0,0.8
-2018,4914,9,CA    ,CalPeak Power - Panoche,55508,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2018,4917,9,CA    ,CalPeak Power - Border,55510,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,494,11664.8,,125146.6,7351.2,0.0,0.7
-2018,4918,9,CA    ,CalPeak Power - Border,55510,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2018,4921,9,CA    ,Cuyamaca Peak Energy,55512,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,548,15408.1,,169052.0,9891.2,0.1,0.9
-2018,4922,9,CA    ,Cuyamaca Peak Energy,55512,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2018,4923,9,CA    ,CalPeak Power - Enterprise,55513,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,512,12532.3,,132502.3,7753.8,0.0,0.9
-2018,4924,9,CA    ,CalPeak Power - Enterprise,55513,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2018,4925,9,NV    ,Apex Generating Station,55514,CTG01,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5440,1194257.1,,8368579.1,497346.5,2.5,50.4
 2018,4926,9,NV    ,Apex Generating Station,55514,CTG02,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5025,1093559.6,,7517068.9,446738.4,2.3,44.3
 2018,4927,1,CT    ,"Wallingford Energy, LLC",55517,CT01,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,644,21274.0,,200848.6,11936.3,0.1,1.0
@@ -7049,10 +6986,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,5038,6,OK    ,Spring Creek Power Plant,55651,CT-04,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,891,54013.3,,644957.4,38329.5,0.2,6.5
 2018,5039,4,GA    ,Hartwell Energy Facility,70454,MAG1,,OPR,"ARP,CSNOX,CSOSG1,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,1097,100713.3,,1254690.0,75560.9,0.6,43.0
 2018,5040,4,GA    ,Hartwell Energy Facility,70454,MAG2,,OPR,"ARP,CSNOX,CSOSG1,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,884,79771.0,,985057.8,60160.1,0.7,36.3
-2018,5041,4,TN    ,Chemours Johnsonville,880001,JVD1,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2018,5042,4,TN    ,Chemours Johnsonville,880001,JVD2,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2018,5043,4,TN    ,Chemours Johnsonville,880001,JVD3,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
-2018,5044,4,TN    ,Chemours Johnsonville,880001,JVD4,,RET,ARP,Dry bottom wall-fired boiler,,,,,,,,,
 2018,5046,3,DE    ,NRG Energy Center Dover,10030,2,,OPR,"ARP,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,1708,79160.3,,657280.3,39061.1,0.2,2.9
 2018,5047,3,DE    ,NRG Energy Center Dover,10030,3,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,509,17149.7,,160317.8,10092.9,0.1,6.9
 2018,5055,3,DC    ,GSA Central Heating,880004,3,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,2872,,456341.3,509696.1,,,41.5
@@ -7896,7 +7829,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,89490,4,SC    ,Cross,130,3,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,6366,3148041.2,,30973660.5,3177895.7,1065.1,1025.2
 2018,89491,4,SC    ,Cross,130,4,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,7702,3963497.7,,40914569.2,4197832.7,1395.1,1389.4
 2018,89492,2,NJ    ,Paulsboro Refining Company LLC,50628,780001,,OPR,SIPNOX,Process Heater,Process Gas,GAS,,,,,,,
-2018,89493,6,TX    ,Freeport Energy Center,56152,CTG1,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2018,89495,9,CA    ,Grayson Power Plant,377,9,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,589,18663.6,,181386.2,10778.9,0.1,2.0
 2018,89496,8,UT    ,Nebo Power Station,56177,U1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4237,450127.6,,3358078.2,199566.7,1.0,28.2
 2018,89497,5,IL    ,Venice,913,CT03,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,247,30397.4,,296867.2,17642.6,0.1,6.9
@@ -8302,7 +8234,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,90237,5,WI    ,Germantown Power Plant,6253,P37,,OPR,"CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Diesel Oil,OIL,112,,,30145.0,2440.0,0.8,18.1
 2018,90238,9,NV    ,Tracy,2336,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8460,1841648.9,,13535850.0,804416.2,4.1,40.0
 2018,90239,9,NV    ,Tracy,2336,9,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8457,1846732.3,,13753755.8,817366.9,4.1,40.2
-2018,90240,3,PA    ,United Refining Company,880099,1,,OPR,SIPNOX,Other boiler,,,,,,,,,
 2018,90241,4,KY    ,H L Spurlock,6041,4,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Circulating fluidized bed boiler,Coal,COAL,6336,1676688.1,,14302331.1,1467418.9,723.6,445.3
 2018,90242,6,TX    ,Nueces Bay,3441,8,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5606,1180601.2,,8680660.2,515881.0,2.6,65.0
 2018,90243,6,TX    ,Nueces Bay,3441,9,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5173,1081770.7,,8009515.2,475993.6,2.4,59.6
@@ -8595,9 +8526,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,90730,7,NE    ,J Street,2250,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,33,280.7,,6261.5,,0.0,2.2
 2018,90731,7,KS    ,Quindaro,1295,CT2,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,90,1152.6,,41459.8,,0.0,24.9
 2018,90732,7,KS    ,Quindaro,1295,CT3,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,94,1471.0,,40704.3,,0.0,24.4
-2018,90733,6,TX    ,Oyster Creek Unit VIII,54676,GT81,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2018,90734,6,TX    ,Oyster Creek Unit VIII,54676,GT82,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2018,90735,6,TX    ,Oyster Creek Unit VIII,54676,GT83,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2018,90740,7,NE    ,Jones Street,2290,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,64,1053.3,,39583.8,,1.0,23.8
 2018,90741,7,NE    ,Jones Street,2290,2,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,59,1005.0,,37659.7,,1.0,22.6
 2018,90742,7,NE    ,Sarpy County Station,2292,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,741,15752.6,,591132.1,,4.9,211.6
@@ -8748,13 +8676,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,90986,8,UT    ,Sunnyside Cogeneration Associates,50951,1,,OPR,MATS,Circulating fluidized bed boiler,Coal,COAL,8260,470132.3,,,,,
 2018,90987,10,AK    ,Healy Power Plant,6288,1,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
 2018,90988,10,AK    ,Healy Power Plant,6288,2,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
-2018,90989,9,HI    ,AES Hawaii,10673,BLRA,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2018,90990,9,HI    ,AES Hawaii,10673,BLRB,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2018,90991,6,OK    ,Frontier Generating Station,50558,CC01,,OPR,CSOSG2,Combined cycle,Natural Gas,GAS,671,58901.9,,496032.5,,,26.3
 2018,90998,5,OH    ,Oregon Clean Energy Center,59764,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7216,2631356.0,,17496023.1,1039760.2,5.2,46.2
 2018,90999,5,OH    ,Oregon Clean Energy Center,59764,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,5633,2007129.5,,13208895.9,784983.8,4.0,35.2
-2018,91000,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR1,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2018,91001,8,MT    ,Colstrip Energy Limited Partnership,10784,CBLR,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2018,91002,3,MD    ,Cove Point LNG Terminal,59073,GT501A,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,5150,420622.3,,4536017.5,269572.1,,201.5
 2018,91003,3,MD    ,Cove Point LNG Terminal,59073,GT501B,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,5781,474169.8,,5122195.3,304406.9,,184.3
 2018,91004,3,MD    ,Cove Point LNG Terminal,59073,B921A,,OPR,"RGGI,SIPNOX",Other boiler,Natural Gas,GAS,5896,,615346.7,844093.3,50170.8,,3.2
@@ -8776,16 +8700,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91030,6,TX    ,Antelope Elk Energy Center,57865,3,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,644,93918.8,,914213.9,54331.5,0.3,11.2
 2018,91033,5,OH    ,Carroll County Energy,59773,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7474,2389489.2,,16994257.4,1009942.1,5.1,50.5
 2018,91034,5,OH    ,Carroll County Energy,59773,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7655,2430316.4,,17368611.2,1032193.2,5.2,50.7
-2018,91035,2,PR    ,Palo Seco Steam Power Plant,880103,PS1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91036,2,PR    ,Palo Seco Steam Power Plant,880103,PS2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91037,2,PR    ,Palo Seco Steam Power Plant,880103,PS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91038,2,PR    ,Palo Seco Steam Power Plant,880103,PS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91039,2,PR    ,Aguirre Steam Power Plant,880105,AG1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91040,2,PR    ,Aguirre Steam Power Plant,880105,AG2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91041,2,PR    ,Costa Sur Steam Power Plant,880104,COS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91042,2,PR    ,Costa Sur Steam Power Plant,880104,COS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91043,2,PR    ,Costa Sur Steam Power Plant,880104,COS5,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91044,2,PR    ,Costa Sur Steam Power Plant,880104,COS6,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2018,91045,4,KY    ,Paradise,1378,PCC1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7150,2115814.4,,14338633.6,852101.5,4.3,228.9
 2018,91046,4,KY    ,Paradise,1378,PCC2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,6920,2078521.1,,14051322.0,835042.5,4.2,212.9
 2018,91047,4,KY    ,Paradise,1378,PCC3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,6408,1910951.4,,12892206.5,766167.1,3.9,208.4
@@ -8794,7 +8708,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91050,4,KY    ,Paradise,1378,AUX3,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,765,,75263.5,98005.9,5829.9,,4.3
 2018,91051,5,MI    ,Alpine Power Plant,59926,AL1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,2038,285799.2,,3202141.2,188924.7,1.0,74.6
 2018,91052,5,MI    ,Alpine Power Plant,59926,AL2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,2666,376565.8,,4342721.8,256215.2,1.3,94.6
-2018,91053,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR2,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2018,91054,4,FL    ,Fort Myers,612,PFM3D,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,578,71446.4,,792640.1,48707.5,2.1,15.1
 2018,91055,4,FL    ,Fort Myers,612,PFM3C,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,635,80697.2,,885216.7,54660.9,2.6,17.5
 2018,91056,4,FL    ,Lauderdale,613,PFL6A,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,290,32914.1,,350301.7,22421.6,0.1,8.5
@@ -8804,26 +8717,11 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91060,4,FL    ,Lauderdale,613,PFL6E,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,633,83765.0,,892249.4,54959.2,0.3,17.1
 2018,91061,1,CT    ,CPV Towantic Energy Center,56047,1,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,4495,1517131.9,,10049030.9,599739.4,3.0,35.5
 2018,91062,1,CT    ,CPV Towantic Energy Center,56047,2,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,4511,1527064.9,,10132008.2,605055.8,3.1,29.9
-2018,91069,9,HI    ,Honolulu Generating Station,764,16,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91070,9,HI    ,Honolulu Generating Station,764,17,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91071,9,HI    ,Kahe Generating Station,765,1,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91072,9,HI    ,Kahe Generating Station,765,2,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91073,9,HI    ,Kahe Generating Station,765,3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91074,9,HI    ,Kahe Generating Station,765,4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91075,9,HI    ,Kahe Generating Station,765,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91076,9,HI    ,Kahe Generating Station,765,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91077,9,HI    ,Waiau Generating Station,766,3,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91078,9,HI    ,Waiau Generating Station,766,4,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91079,9,HI    ,Waiau Generating Station,766,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91080,9,HI    ,Waiau Generating Station,766,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2018,91081,9,HI    ,Waiau Generating Station,766,7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91082,9,HI    ,Waiau Generating Station,766,8,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2018,91083,5,MI    ,Holland Energy Park,59093,10,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7091,429882.3,,3048285.0,181151.2,0.9,15.5
 2018,91084,5,MI    ,Holland Energy Park,59093,11,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7558,458919.1,,3256184.2,193515.9,1.0,15.2
 2018,91085,9,AZ    ,Yuma Cogeneration Associates,54694,4101,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,1048,42684.8,,391474.3,23265.4,0.1,17.2
 2018,91086,8,ND    ,Lonesome Creek Station,57943,CT4,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,4582,137609.3,,1504071.6,89386.2,0.5,10.3
 2018,91087,8,ND    ,Lonesome Creek Station,57943,CT5,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,4314,127866.2,,1417800.0,84259.4,0.4,10.1
-2018,91093,6,TX    ,Air Liquide Bayport Complex,10298,CG802A,,FUT,CSOSG2,Combustion turbine,,,,,,,,,
 2018,91094,3,WV    ,Union Carbide Corp. Institute Facility,880053,B017,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,3169,,263050.7,378241.1,,,5.8
 2018,91099,3,VA    ,Greensville County Power Station,59913,1A,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,557,284595.0,,1748803.1,103930.3,0.5,5.0
 2018,91100,3,VA    ,Greensville County Power Station,59913,1B,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,572,281993.9,,1822233.3,108294.1,0.5,5.0
@@ -8836,10 +8734,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91109,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,2191,897369.7,,6256197.3,371798.5,1.9,24.7
 2018,91110,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,2219,904694.3,,6181274.8,367345.5,1.9,27.9
 2018,91111,3,PA    ,Panda Hummel Station,60368,CT3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,3879,1170440.4,,8070723.4,479632.8,2.4,51.4
-2018,91112,2,PR    ,San Juan Steam Power Plant,880106,SJ7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91113,2,PR    ,San Juan Steam Power Plant,880106,SJ8,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91114,2,PR    ,San Juan Steam Power Plant,880106,SJ9,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2018,91115,2,PR    ,San Juan Steam Power Plant,880106,SJ10,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2018,91126,5,IL    ,Alsey Station,7818,ACT6,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,484,16195.3,,164416.2,9771.7,0.0,5.8
 2018,91130,5,IL    ,Wood River Refinery,880067,BLR19,,OPR,SIPNOX,Other boiler,Natural Gas,GAS,6956,,1025909.4,1528368.2,,,11.0
 2018,91139,3,PA    ,Tenaska Westmoreland Generating Station,60464,101,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,253,106803.4,,740359.5,43998.6,0.2,1.9
@@ -8890,7 +8784,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91221,3,PA    ,Trainer Refinery,880025,53,,OPR,SIPNOX,Other boiler,Process Gas,GAS,3117,,358989.6,691033.7,,,0.7
 2018,91222,4,TN    ,Johnsonville,3406,AUX1,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,4380,,773693.3,936219.9,,,2.7
 2018,91223,4,TN    ,Johnsonville,3406,AUX2,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,3078,,655076.8,843207.0,,,2.5
-2018,91225,2,NJ    ,Woodbridge Energy Center,57839,U200,,FUT,ARP,,,,,,,,,,
 2018,91230,3,PA    ,Pixelle Specialty Solutions,50397,38,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,3477,,573936.5,661593.3,,,9.6
 2018,91231,3,PA    ,Pixelle Specialty Solutions,50397,39,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,3255,,393473.4,520691.0,,,8.2
 2018,91235,5,MN    ,Black Dog,1904,6,,OPR,"ARP,CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,1158,178337.4,,1911808.6,113620.8,0.6,28.2
@@ -8936,7 +8829,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2018,91290,3,MD    ,"American Sugar Refining, Inc.",54795,C6,,OPR,SIPNOX,Dry bottom wall-fired boiler,Natural Gas,GAS,1808,,248459.4,335420.2,,,5.5
 2018,91293,3,MD    ,Cove Point LNG Terminal,59073,214JA,,OPR,SIPNOX,Combustion turbine,Natural Gas,GAS,4270,50320.3,,942227.6,,,12.2
 2018,91294,3,MD    ,Cove Point LNG Terminal,59073,214JB,,OPR,SIPNOX,Combustion turbine,Natural Gas,GAS,3773,46714.5,,876575.7,,,8.2
-2018,91302,3,MD    ,NIH Cogeneration Facility,56668,CGTC,,OPR,SIPNOX,Combustion turbine,,,,,,,,,
 2019,1,4,AL    ,Barry,3,1,CS0AAN,OPR,"ARP,CSNOX,CSOSG2,CSSO2G2",Tangentially-fired,Pipeline Natural Gas,GAS,1087,29418.0,,408262.8,24238.0,1.0,12.0
 2019,2,4,AL    ,Barry,3,2,CS0AAN,OPR,"ARP,CSNOX,CSOSG2,CSSO2G2",Tangentially-fired,Pipeline Natural Gas,GAS,940,22827.3,,354911.7,21068.9,1.0,11.1
 2019,4,4,AL    ,Barry,3,4,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G2,MATS",Tangentially-fired,Coal,COAL,3146,541341.0,,5591770.4,573714.0,3087.1,719.9
@@ -10675,7 +10567,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,3721,3,PA    ,Philadelphia Refinery,52106,150140,CS0001,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,3699,,969221.4,1439827.4,,,26.1
 2019,3722,3,PA    ,Merck & Company - West Point,52149,39,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,1763,45046.1,,614146.6,,,25.4
 2019,3723,3,PA    ,Merck & Company - West Point,52149,40,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,7404,243166.4,,3142501.6,,,43.3
-2019,3727,3,DE    ,Delaware City Refinery,52193,21H1,,OPR,SIPNOX,Process Heater,,,,,,,,,
 2019,3728,3,DE    ,Delaware City Refinery,52193,21H701,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2019,3730,3,DE    ,Delaware City Refinery,52193,37H1,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2019,3732,3,DE    ,Delaware City Refinery,52193,42H123,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
@@ -10721,7 +10612,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,3789,3,PA    ,"Domtar Paper Company, LLC",54638,41,CS1,OPR,SIPNOX,Dry bottom wall-fired boiler,Coal,COAL,3587,,280376.6,371682.2,,,16.9
 2019,3790,2,NJ    ,Lakewood,54640,1001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,1622,119448.1,,1462191.5,86895.7,0.4,14.1
 2019,3791,2,NJ    ,Lakewood,54640,2001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,1712,124784.0,,1525522.5,90657.7,0.5,14.6
-2019,3794,6,TX    ,Port Neches,54748,GT1,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2019,3795,9,CA    ,Goal Line,54749,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,256,8987.2,,78321.4,4654.6,0.0,0.5
 2019,3796,10,OR    ,Hermiston,54761,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7291,1494401.8,,11379074.9,676240.4,3.4,82.6
 2019,3797,10,OR    ,Hermiston,54761,2,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,6537,1307852.7,,10021119.8,595539.4,3.0,71.5
@@ -10846,8 +10736,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,3941,6,LA    ,R S Cogen LLC,55117,RS-6,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,8293,1643844.3,,14937477.1,887708.4,4.5,399.8
 2019,3945,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,8137,1784870.2,,15072498.2,913953.0,4.5,134.4
 2019,3946,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,7556,1704319.4,,13141757.4,857663.1,4.0,125.2
-2019,3949,6,TX    ,NAFTA Region Olefins Complex,55122,N-20A,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
-2019,3950,6,TX    ,NAFTA Region Olefins Complex,55122,N-20B,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2019,3951,6,TX    ,Magic Valley Generating Station,55123,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,4280,1459326.9,,9509607.2,565145.7,2.9,69.6
 2019,3952,6,TX    ,Magic Valley Generating Station,55123,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5122,1660580.5,,11051562.7,656773.9,3.3,78.0
 2019,3953,9,AZ    ,Griffith Energy Project,55124,P1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,6984,1624709.0,,11423563.6,678888.7,3.4,56.0
@@ -11387,7 +11275,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,4862,9,AZ    ,Mesquite Generating Station,55481,6,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7472,1751569.5,,11881597.6,706101.8,3.6,51.3
 2019,4863,10,WA    ,Goldendale Generating Station,55482,CT-1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,7121,1944705.3,,13510385.3,802904.4,4.1,51.0
 2019,4893,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,348,8004.6,,87744.3,5108.7,0.0,0.6
-2019,4894,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2019,4899,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6206,1515588.6,,10860501.6,645426.8,3.3,158.1
 2019,4900,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,6274,1523068.8,,10979952.5,652524.2,3.3,157.1
 2019,4901,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB3,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,5302,1278345.6,,9096359.4,540585.3,2.7,149.0
@@ -11397,13 +11284,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,4905,8,CO    ,Frank Knutson Station,55505,BR1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,792,43263.5,,532125.4,31643.5,0.2,7.3
 2019,4906,8,CO    ,Frank Knutson Station,55505,BR2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,958,51114.7,,643767.3,38331.5,0.2,9.0
 2019,4913,9,CA    ,CalPeak Power - Panoche,55508,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,276,6871.1,,74921.2,4397.2,0.0,0.4
-2019,4914,9,CA    ,CalPeak Power - Panoche,55508,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2019,4917,9,CA    ,CalPeak Power - Border,55510,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,437,9385.0,,101542.4,5965.8,0.0,0.9
-2019,4918,9,CA    ,CalPeak Power - Border,55510,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2019,4921,9,CA    ,Cuyamaca Peak Energy,55512,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,303,7283.5,,80881.9,4732.8,0.0,0.5
-2019,4922,9,CA    ,Cuyamaca Peak Energy,55512,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2019,4923,9,CA    ,CalPeak Power - Enterprise,55513,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,277,5612.5,,60059.5,3514.7,0.0,0.5
-2019,4924,9,CA    ,CalPeak Power - Enterprise,55513,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2019,4925,9,NV    ,Apex Generating Station,55514,CTG01,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4775,1011652.9,,7181132.6,426795.1,2.2,56.5
 2019,4926,9,NV    ,Apex Generating Station,55514,CTG02,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,5062,1085533.3,,7635466.8,453804.8,2.3,51.8
 2019,4927,1,CT    ,"Wallingford Energy, LLC",55517,CT01,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,413,12495.1,,123825.7,7359.1,0.0,0.7
@@ -12262,7 +12145,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,89490,4,SC    ,Cross,130,3,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,8064,3461216.4,,34195745.2,3508483.8,1214.7,1082.7
 2019,89491,4,SC    ,Cross,130,4,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,7133,3080820.9,,31174922.1,3198543.1,1017.1,1015.8
 2019,89492,2,NJ    ,Paulsboro Refining Company LLC,50628,780001,,OPR,SIPNOX,Process Heater,Process Gas,GAS,,,,,,,
-2019,89493,6,TX    ,Freeport Energy Center,56152,CTG1,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2019,89495,9,CA    ,Grayson Power Plant,377,9,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,649,18165.2,,190669.0,11331.8,0.1,2.3
 2019,89496,8,UT    ,Nebo Power Station,56177,U1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,4184,435025.0,,3214488.6,191032.7,1.0,27.6
 2019,89497,5,IL    ,Venice,913,CT03,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,115,14070.6,,133489.4,7933.4,0.0,3.1
@@ -12666,7 +12548,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,90237,5,WI    ,Germantown Power Plant,6253,P37,,OPR,"CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Diesel Oil,OIL,25,,,4956.8,401.5,0.1,3.0
 2019,90238,9,NV    ,Tracy,2336,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8167,1665818.0,,12285999.2,730135.4,3.7,31.8
 2019,90239,9,NV    ,Tracy,2336,9,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,8138,1670987.9,,12449715.2,739866.9,3.7,31.6
-2019,90240,3,PA    ,United Refining Company,880099,1,,OPR,SIPNOX,Other boiler,,,,,,,,,
 2019,90241,4,KY    ,H L Spurlock,6041,4,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Circulating fluidized bed boiler,Coal,COAL,5806,1451084.6,,12455349.3,1277914.0,632.3,388.3
 2019,90242,6,TX    ,Nueces Bay,3441,8,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,3759,812604.5,,5891148.8,350102.9,1.8,47.0
 2019,90243,6,TX    ,Nueces Bay,3441,9,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,4070,879137.0,,6458104.6,383795.8,1.9,51.8
@@ -12959,9 +12840,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,90730,7,NE    ,J Street,2250,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,184,1723.9,,38694.5,,0.1,13.8
 2019,90731,7,KS    ,Quindaro,1295,CT2,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,198,2969.8,,92828.2,,0.1,55.7
 2019,90732,7,KS    ,Quindaro,1295,CT3,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,190,2962.9,,84280.2,,0.1,50.6
-2019,90733,6,TX    ,Oyster Creek Unit VIII,54676,GT81,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2019,90734,6,TX    ,Oyster Creek Unit VIII,54676,GT82,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2019,90735,6,TX    ,Oyster Creek Unit VIII,54676,GT83,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2019,90740,7,NE    ,Jones Street,2290,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,92,1551.6,,55603.2,,1.4,33.4
 2019,90741,7,NE    ,Jones Street,2290,2,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,122,1936.1,,73451.4,,1.9,44.1
 2019,90742,7,NE    ,Sarpy County Station,2292,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,135,2401.7,,42374.5,,0.0,6.3
@@ -13112,13 +12990,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,90986,8,UT    ,Sunnyside Cogeneration Associates,50951,1,,OPR,MATS,Circulating fluidized bed boiler,Coal,COAL,7926,457324.6,,,,,
 2019,90987,10,AK    ,Healy Power Plant,6288,1,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
 2019,90988,10,AK    ,Healy Power Plant,6288,2,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,6395,236165.5,,,,,
-2019,90989,9,HI    ,AES Hawaii,10673,BLRA,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2019,90990,9,HI    ,AES Hawaii,10673,BLRB,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2019,90991,6,OK    ,Frontier Generating Station,50558,CC01,,OPR,"ARP,CSOSG2",Combined cycle,Natural Gas,GAS,1326,128273.3,,1063467.0,,,59.4
 2019,90998,5,OH    ,Oregon Clean Energy Center,59764,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,6895,2769200.3,,18127790.2,1077309.4,5.4,48.1
 2019,90999,5,OH    ,Oregon Clean Energy Center,59764,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7038,2821499.0,,18459973.9,1097045.4,5.5,51.4
-2019,91000,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR1,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2019,91001,8,MT    ,Colstrip Energy Limited Partnership,10784,CBLR,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2019,91002,3,MD    ,Cove Point LNG Terminal,59073,GT501A,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,7996,660510.1,,7057954.5,419445.8,,25.4
 2019,91003,3,MD    ,Cove Point LNG Terminal,59073,GT501B,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,8076,666448.9,,7151734.8,425017.8,,27.8
 2019,91004,3,MD    ,Cove Point LNG Terminal,59073,B921A,,OPR,"RGGI,SIPNOX",Other boiler,Natural Gas,GAS,8461,,939288.1,1327156.8,78870.9,,4.5
@@ -13140,16 +13014,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91030,6,TX    ,Antelope Elk Energy Center,57865,3,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,1085,152118.6,,1448630.0,86089.9,0.4,18.9
 2019,91033,5,OH    ,Carroll County Energy,59773,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7958,2677133.4,,19050470.0,1132142.6,5.7,53.6
 2019,91034,5,OH    ,Carroll County Energy,59773,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7935,2651445.4,,18859502.3,1120797.5,5.7,53.4
-2019,91035,2,PR    ,Palo Seco Steam Power Plant,880103,PS1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91036,2,PR    ,Palo Seco Steam Power Plant,880103,PS2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91037,2,PR    ,Palo Seco Steam Power Plant,880103,PS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91038,2,PR    ,Palo Seco Steam Power Plant,880103,PS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91039,2,PR    ,Aguirre Steam Power Plant,880105,AG1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91040,2,PR    ,Aguirre Steam Power Plant,880105,AG2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91041,2,PR    ,Costa Sur Steam Power Plant,880104,COS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91042,2,PR    ,Costa Sur Steam Power Plant,880104,COS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91043,2,PR    ,Costa Sur Steam Power Plant,880104,COS5,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91044,2,PR    ,Costa Sur Steam Power Plant,880104,COS6,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2019,91045,4,KY    ,Paradise,1378,PCC1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7290,2141686.8,,14471543.8,860025.6,4.3,248.3
 2019,91046,4,KY    ,Paradise,1378,PCC2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7497,2213287.5,,14577183.7,866298.3,4.4,244.2
 2019,91047,4,KY    ,Paradise,1378,PCC3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7523,2240832.0,,15099001.8,897310.6,4.5,248.2
@@ -13158,7 +13022,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91050,4,KY    ,Paradise,1378,AUX3,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,0,,,,,,
 2019,91051,5,MI    ,Alpine Power Plant,59926,AL1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,1065,167111.7,,1799190.6,106158.1,0.5,44.1
 2019,91052,5,MI    ,Alpine Power Plant,59926,AL2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,1020,160811.1,,1743448.0,102860.7,0.5,41.2
-2019,91053,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR2,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2019,91054,4,FL    ,Fort Myers,612,PFM3D,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,868,124920.0,,1347375.0,80407.7,0.8,20.3
 2019,91055,4,FL    ,Fort Myers,612,PFM3C,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,841,114872.9,,1237526.8,73954.6,0.8,19.1
 2019,91056,4,FL    ,Lauderdale,613,PFL6A,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,469,65477.9,,671982.7,40056.2,0.2,10.4
@@ -13168,26 +13031,11 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91060,4,FL    ,Lauderdale,613,PFL6E,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,774,113804.6,,1183680.6,70396.5,0.4,17.3
 2019,91061,1,CT    ,CPV Towantic Energy Center,56047,1,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,7354,2525074.4,,16860399.7,1002134.7,5.1,49.1
 2019,91062,1,CT    ,CPV Towantic Energy Center,56047,2,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,4283,1439558.4,,9575842.6,569207.0,2.9,27.4
-2019,91069,9,HI    ,Honolulu Generating Station,764,16,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91070,9,HI    ,Honolulu Generating Station,764,17,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91071,9,HI    ,Kahe Generating Station,765,1,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91072,9,HI    ,Kahe Generating Station,765,2,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91073,9,HI    ,Kahe Generating Station,765,3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91074,9,HI    ,Kahe Generating Station,765,4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91075,9,HI    ,Kahe Generating Station,765,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91076,9,HI    ,Kahe Generating Station,765,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91077,9,HI    ,Waiau Generating Station,766,3,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91078,9,HI    ,Waiau Generating Station,766,4,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91079,9,HI    ,Waiau Generating Station,766,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91080,9,HI    ,Waiau Generating Station,766,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2019,91081,9,HI    ,Waiau Generating Station,766,7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91082,9,HI    ,Waiau Generating Station,766,8,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2019,91083,5,MI    ,Holland Energy Park,59093,10,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,8069,489931.3,,3547954.5,210846.1,1.1,18.3
 2019,91084,5,MI    ,Holland Energy Park,59093,11,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,7304,438505.4,,3168212.5,188282.7,1.0,15.2
 2019,91085,9,AZ    ,Yuma Cogeneration Associates,54694,4101,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,1615,61863.6,,575870.5,34223.4,0.2,25.3
 2019,91086,8,ND    ,Lonesome Creek Station,57943,CT4,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,6831,233633.5,,2518590.2,149683.2,0.8,15.3
 2019,91087,8,ND    ,Lonesome Creek Station,57943,CT5,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,5830,193948.8,,2082992.7,123787.2,0.6,13.2
-2019,91093,6,TX    ,Air Liquide Bayport Complex,10298,CG802A,,FUT,CSOSG2,Combustion turbine,,,,,,,,,
 2019,91094,3,WV    ,Union Carbide Corp. Institute Facility,880053,B017,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,2788,,212859.8,289495.2,,,3.9
 2019,91095,4,FL    ,Crystal River,628,1GTA,,OPR,"ARP,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,6860,2616658.4,,17407542.3,1034504.0,5.2,457.7
 2019,91096,4,FL    ,Crystal River,628,1GTB,,OPR,"ARP,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,6801,2610758.3,,17371894.7,1032388.8,5.2,466.4
@@ -13204,10 +13052,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91109,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7543,3094163.0,,20535628.9,1220407.8,6.2,60.0
 2019,91110,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,7379,3037535.4,,20139433.3,1196857.6,6.0,59.9
 2019,91111,3,PA    ,Panda Hummel Station,60368,CT3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,5426,1642061.9,,11260543.3,669198.4,3.4,35.2
-2019,91112,2,PR    ,San Juan Steam Power Plant,880106,SJ7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91113,2,PR    ,San Juan Steam Power Plant,880106,SJ8,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91114,2,PR    ,San Juan Steam Power Plant,880106,SJ9,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2019,91115,2,PR    ,San Juan Steam Power Plant,880106,SJ10,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2019,91126,5,IL    ,Alsey Station,7818,ACT6,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,356,12472.9,,125943.7,7484.8,0.0,4.7
 2019,91130,5,IL    ,Wood River Refinery,880067,BLR19,,OPR,SIPNOX,Other boiler,Natural Gas,GAS,8087,,1468392.9,1950594.1,,,15.2
 2019,91139,3,PA    ,Tenaska Westmoreland Generating Station,60464,101,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,5771,2489694.2,,17226041.7,1023716.4,5.2,42.0
@@ -13260,7 +13104,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91221,3,PA    ,Trainer Refinery,880025,53,,OPR,SIPNOX,Other boiler,Process Gas,GAS,3612,,465950.4,927851.5,,,1.5
 2019,91222,4,TN    ,Johnsonville,3406,AUX1,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,3489,,458000.8,572067.5,,,1.6
 2019,91223,4,TN    ,Johnsonville,3406,AUX2,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,2505,,362888.7,446729.3,,,1.3
-2019,91225,2,NJ    ,Woodbridge Energy Center,57839,U200,,FUT,ARP,,,,,,,,,,
 2019,91228,6,TX    ,Victoria Port Peaking Facility,61242,CT1,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,831,21642.7,,243412.4,14463.5,0.1,31.6
 2019,91229,6,TX    ,Victoria Port Peaking Facility,61242,CT2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,846,22469.8,,253660.2,15073.1,0.1,13.3
 2019,91230,3,PA    ,Pixelle Specialty Solutions,50397,38,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,3418,,461858.7,536482.7,,,7.1
@@ -13268,8 +13111,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91232,1,MA    ,Exelon West Medway II,59882,J4,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,725,30225.6,,295757.6,18097.6,0.1,1.6
 2019,91233,1,MA    ,Exelon West Medway II,59882,J5,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,638,28318.3,,269562.2,16637.9,0.1,1.3
 2019,91235,5,MN    ,Black Dog,1904,6,,OPR,"ARP,CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,1926,301927.7,,3232565.1,192111.2,1.0,46.4
-2019,91237,6,TX    ,Power Island,10154,1,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2019,91238,6,TX    ,Power Island,10154,2,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
 2019,91239,3,VA    ,Doswell Limited Partnership,52019,CT3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,2473,351174.7,,3963470.4,235542.7,1.2,68.5
 2019,91240,3,VA    ,Doswell Limited Partnership,52019,CT2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,2549,359830.9,,4073440.2,242079.1,1.2,67.3
 2019,91241,9,CA    ,Algonquin Power Sanger,57564,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,1714,50308.7,,518028.2,30787.0,0.2,4.3
@@ -13324,7 +13165,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2019,91296,6,LA    ,St. Charles Power Station,60926,1B,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,4503,1852253.3,,12983863.4,771615.7,3.9,43.2
 2019,91299,4,MS    ,Hinds Energy Facility,55218,2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,115,2000.0,,21.4,0.0,0.0,0.0
 2019,91300,5,OH    ,Pratt Paper (OH),880109,B001,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,144,,,47851.2,,,0.4
-2019,91302,3,MD    ,NIH Cogeneration Facility,56668,CGTC,,OPR,SIPNOX,Combustion turbine,,,,,,,,,
 2019,91311,3,PA    ,"CPV Fairview, LLC",60589,CT-2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Natural Gas,GAS,423,168542.5,,1115804.0,66310.0,0.2,3.1
 2019,91312,3,PA    ,"CPV Fairview, LLC",60589,CT-1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Natural Gas,GAS,459,188670.7,,1247527.9,74138.1,0.2,3.5
 2019,91318,5,IL    ,Lemont Refinery,880076,430B24,,OPR,SIPNOX,Other boiler,Process Gas,GAS,3462,,347200.0,284238.0,,,2.0
@@ -15011,9 +14851,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,3721,3,PA    ,Philadelphia Refinery,52106,150140,CS0001,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,,,,,,,
 2020,3722,3,PA    ,Merck & Company - West Point,52149,39,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,3723,3,PA    ,Merck & Company - West Point,52149,40,,OPR,SIPNOX,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,3727,3,DE    ,Delaware City Refinery,52193,21H1,,OPR,SIPNOX,Process Heater,,,,,,,,,
-2020,3728,3,DE    ,Delaware City Refinery,52193,21H701,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
-2020,3730,3,DE    ,Delaware City Refinery,52193,37H1,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2020,3732,3,DE    ,Delaware City Refinery,52193,42H123,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2020,3733,3,DE    ,Delaware City Refinery,52193,DCPP1,,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,,,,,,,
 2020,3734,3,DE    ,Delaware City Refinery,52193,DCPP2,,OPR,SIPNOX,Dry bottom wall-fired boiler,Process Gas,GAS,,,,,,,
@@ -15057,7 +14894,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,3789,3,PA    ,"Domtar Paper Company, LLC",54638,41,CS1,OPR,SIPNOX,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
 2020,3790,2,NJ    ,Lakewood,54640,1001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,RGGI",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3791,2,NJ    ,Lakewood,54640,2001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,RGGI",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,3794,6,TX    ,Port Neches,54748,GT1,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2020,3795,9,CA    ,Goal Line,54749,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,0,,,,,,
 2020,3796,10,OR    ,Hermiston,54761,1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3797,10,OR    ,Hermiston,54761,2,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -15182,8 +15018,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,3941,6,LA    ,R S Cogen LLC,55117,RS-6,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3945,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3946,6,TX    ,SRO Cogen Limited Partnership,55120,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,3949,6,TX    ,NAFTA Region Olefins Complex,55122,N-20A,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
-2020,3950,6,TX    ,NAFTA Region Olefins Complex,55122,N-20B,,OPR,CSOSG2,Combustion turbine,,,,,,,,,
 2020,3951,6,TX    ,Magic Valley Generating Station,55123,CTG-1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3952,6,TX    ,Magic Valley Generating Station,55123,CTG-2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,3953,9,AZ    ,Griffith Energy Project,55124,P1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -15723,7 +15557,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,4862,9,AZ    ,Mesquite Generating Station,55481,6,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,4863,10,WA    ,Goldendale Generating Station,55482,CT-1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,4893,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,4894,9,CA    ,CalPeak Power - Vaca Dixon,55499,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2020,4899,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB1,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,1494,278018.2,,2203249.9,130933.9,0.7,35.5
 2020,4900,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB2,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,1481,309467.7,,2429940.7,144408.7,0.7,38.9
 2020,4901,6,OK    ,Tenaska Kiamichi Generating Station,55501,CTGDB3,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,1736,366031.3,,2772581.3,164770.0,0.8,44.3
@@ -15733,13 +15566,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,4905,8,CO    ,Frank Knutson Station,55505,BR1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,4906,8,CO    ,Frank Knutson Station,55505,BR2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,4913,9,CA    ,CalPeak Power - Panoche,55508,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,4914,9,CA    ,CalPeak Power - Panoche,55508,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2020,4917,9,CA    ,CalPeak Power - Border,55510,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,4918,9,CA    ,CalPeak Power - Border,55510,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2020,4921,9,CA    ,Cuyamaca Peak Energy,55512,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,4922,9,CA    ,Cuyamaca Peak Energy,55512,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2020,4923,9,CA    ,CalPeak Power - Enterprise,55513,GT-1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,4924,9,CA    ,CalPeak Power - Enterprise,55513,GT-2,,OPR,ARP,Combustion turbine,,,,,,,,,
 2020,4925,9,NV    ,Apex Generating Station,55514,CTG01,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,4926,9,NV    ,Apex Generating Station,55514,CTG02,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,4927,1,CT    ,"Wallingford Energy, LLC",55517,CT01,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -16586,7 +16415,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,89490,4,SC    ,Cross,130,3,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,,,,,,,
 2020,89491,4,SC    ,Cross,130,4,,OPR,"ARP,CSNOX,CSSO2G2,MATS,SIPNOX",Tangentially-fired,Coal,COAL,,,,,,,
 2020,89492,2,NJ    ,Paulsboro Refining Company LLC,50628,780001,,OPR,SIPNOX,Process Heater,Process Gas,GAS,,,,,,,
-2020,89493,6,TX    ,Freeport Energy Center,56152,CTG1,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2020,89495,9,CA    ,Grayson Power Plant,377,9,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,89496,8,UT    ,Nebo Power Station,56177,U1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,89497,5,IL    ,Venice,913,CT03,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -16989,7 +16817,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,90237,5,WI    ,Germantown Power Plant,6253,P37,,OPR,"CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Diesel Oil,OIL,,,,,,,
 2020,90238,9,NV    ,Tracy,2336,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,90239,9,NV    ,Tracy,2336,9,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,90240,3,PA    ,United Refining Company,880099,1,,OPR,SIPNOX,Other boiler,,,,,,,,,
 2020,90241,4,KY    ,H L Spurlock,6041,4,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Circulating fluidized bed boiler,Coal,COAL,,,,,,,
 2020,90242,6,TX    ,Nueces Bay,3441,8,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,90243,6,TX    ,Nueces Bay,3441,9,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17232,8 +17059,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,90672,4,MS    ,Moselle Generation Complex,2070,7,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,2172,292957.2,,2373965.0,141085.8,0.7,6.5
 2020,90673,5,IN    ,Edwardsport Generating Station,1004,CTG1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Integrated gasification combined cycle,Coal,COAL,,,,,,,
 2020,90674,5,IN    ,Edwardsport Generating Station,1004,CTG2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,MATS",Integrated gasification combined cycle,Coal,COAL,,,,,,,
-2020,90675,10,WA    ,Grays Harbor Energy Center,7999,3,,FUT,ARP,Combined cycle,,,,,,,,,
-2020,90676,10,WA    ,Grays Harbor Energy Center,7999,4,,FUT,ARP,Combined cycle,,,,,,,,,
 2020,90677,9,CA    ,Walnut Creek Energy Park,57515,GT1,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,90678,9,CA    ,Walnut Creek Energy Park,57515,GT2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,90679,9,CA    ,Walnut Creek Energy Park,57515,GT3,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -17278,9 +17103,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,90730,7,NE    ,J Street,2250,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,90731,7,KS    ,Quindaro,1295,CT2,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,,,,,,,
 2020,90732,7,KS    ,Quindaro,1295,CT3,,OPR,"CSNOX,CSOSG2,CSSO2G2",Combustion turbine,Diesel Oil,OIL,,,,,,,
-2020,90733,6,TX    ,Oyster Creek Unit VIII,54676,GT81,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2020,90734,6,TX    ,Oyster Creek Unit VIII,54676,GT82,,OPR,CSOSG2,Combined cycle,,,,,,,,,
-2020,90735,6,TX    ,Oyster Creek Unit VIII,54676,GT83,,OPR,CSOSG2,Combined cycle,,,,,,,,,
 2020,90740,7,NE    ,Jones Street,2290,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,,,,,,,
 2020,90741,7,NE    ,Jones Street,2290,2,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Diesel Oil,OIL,,,,,,,
 2020,90742,7,NE    ,Sarpy County Station,2292,1,,OPR,"CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -17431,22 +17253,14 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,90986,8,UT    ,Sunnyside Cogeneration Associates,50951,1,,OPR,MATS,Circulating fluidized bed boiler,Coal,COAL,,,,,,,
 2020,90987,10,AK    ,Healy Power Plant,6288,1,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
 2020,90988,10,AK    ,Healy Power Plant,6288,2,,OPR,MATS,Dry bottom wall-fired boiler,Coal,COAL,,,,,,,
-2020,90989,9,HI    ,AES Hawaii,10673,BLRA,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2020,90990,9,HI    ,AES Hawaii,10673,BLRB,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2020,90991,6,OK    ,Frontier Generating Station,50558,CC01,,OPR,"ARP,CSOSG2",Combined cycle,Natural Gas,GAS,,,,,,,
 2020,90998,5,OH    ,Oregon Clean Energy Center,59764,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,90999,5,OH    ,Oregon Clean Energy Center,59764,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,91000,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR1,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
-2020,91001,8,MT    ,Colstrip Energy Limited Partnership,10784,CBLR,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2020,91002,3,MD    ,Cove Point LNG Terminal,59073,GT501A,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,,,,,,,
 2020,91003,3,MD    ,Cove Point LNG Terminal,59073,GT501B,,OPR,"RGGI,SIPNOX",Combustion turbine,Natural Gas,GAS,,,,,,,
 2020,91004,3,MD    ,Cove Point LNG Terminal,59073,B921A,,OPR,"RGGI,SIPNOX",Other boiler,Natural Gas,GAS,,,,,,,
 2020,91005,3,MD    ,Cove Point LNG Terminal,59073,B921B,,OPR,"RGGI,SIPNOX",Other boiler,Natural Gas,GAS,,,,,,,
 2020,91007,2,NY    ,Covanta Niagara,50472,R1B02,,OPR,"RGGI,SIPNOX",Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,,,,,,,
-2020,91008,6,TX    ,Neches Station,59716,NEC1,,FUT,"ARP,CSOSG2",Combined cycle,,,,,,,,,
-2020,91009,6,TX    ,Neches Station,59716,NEC2,,FUT,"ARP,CSOSG2",Combined cycle,,,,,,,,,
-2020,91010,6,TX    ,Neches Station,59716,NEC3,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2020,91011,6,TX    ,Neches Station,59716,NEC4,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
 2020,91012,4,NC    ,Kings Mountain Energy Center,59325,ES-1,,OPR,"ARP,CSNOX,CSSO2G1,NSPS4T,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91013,5,OH    ,Middletown Energy Center,59326,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91015,4,SC    ,W S Lee,3264,11,,OPR,"ARP,CSNOX,CSSO2G2,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17463,16 +17277,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91030,6,TX    ,Antelope Elk Energy Center,57865,3,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91033,5,OH    ,Carroll County Energy,59773,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91034,5,OH    ,Carroll County Energy,59773,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,91035,2,PR    ,Palo Seco Steam Power Plant,880103,PS1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91036,2,PR    ,Palo Seco Steam Power Plant,880103,PS2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91037,2,PR    ,Palo Seco Steam Power Plant,880103,PS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91038,2,PR    ,Palo Seco Steam Power Plant,880103,PS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91039,2,PR    ,Aguirre Steam Power Plant,880105,AG1,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91040,2,PR    ,Aguirre Steam Power Plant,880105,AG2,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91041,2,PR    ,Costa Sur Steam Power Plant,880104,COS3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91042,2,PR    ,Costa Sur Steam Power Plant,880104,COS4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91043,2,PR    ,Costa Sur Steam Power Plant,880104,COS5,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91044,2,PR    ,Costa Sur Steam Power Plant,880104,COS6,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2020,91045,4,KY    ,Paradise,1378,PCC1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91046,4,KY    ,Paradise,1378,PCC2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91047,4,KY    ,Paradise,1378,PCC3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17481,7 +17285,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91050,4,KY    ,Paradise,1378,AUX3,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,,,,,,,
 2020,91051,5,MI    ,Alpine Power Plant,59926,AL1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91052,5,MI    ,Alpine Power Plant,59926,AL2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,91053,8,MT    ,Yellowstone Energy Limited Partnership,50931,BLR2,,OPR,MATS,Circulating fluidized bed boiler,,,,,,,,,
 2020,91054,4,FL    ,Fort Myers,612,PFM3D,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91055,4,FL    ,Fort Myers,612,PFM3C,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91056,4,FL    ,Lauderdale,613,PFL6A,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -17491,26 +17294,11 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91060,4,FL    ,Lauderdale,613,PFL6E,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91061,1,CT    ,CPV Towantic Energy Center,56047,1,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91062,1,CT    ,CPV Towantic Energy Center,56047,2,,OPR,"ARP,NSPS4T,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,91069,9,HI    ,Honolulu Generating Station,764,16,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91070,9,HI    ,Honolulu Generating Station,764,17,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91071,9,HI    ,Kahe Generating Station,765,1,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91072,9,HI    ,Kahe Generating Station,765,2,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91073,9,HI    ,Kahe Generating Station,765,3,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91074,9,HI    ,Kahe Generating Station,765,4,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91075,9,HI    ,Kahe Generating Station,765,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91076,9,HI    ,Kahe Generating Station,765,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91077,9,HI    ,Waiau Generating Station,766,3,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91078,9,HI    ,Waiau Generating Station,766,4,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91079,9,HI    ,Waiau Generating Station,766,5,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91080,9,HI    ,Waiau Generating Station,766,6,,OPR,MATS,Dry bottom wall-fired boiler,,,,,,,,,
-2020,91081,9,HI    ,Waiau Generating Station,766,7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91082,9,HI    ,Waiau Generating Station,766,8,,OPR,MATS,Tangentially-fired,,,,,,,,,
 2020,91083,5,MI    ,Holland Energy Park,59093,10,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91084,5,MI    ,Holland Energy Park,59093,11,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91085,9,AZ    ,Yuma Cogeneration Associates,54694,4101,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91086,8,ND    ,Lonesome Creek Station,57943,CT4,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91087,8,ND    ,Lonesome Creek Station,57943,CT5,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,91093,6,TX    ,Air Liquide Bayport Complex,10298,CG802A,,FUT,CSOSG2,Combustion turbine,,,,,,,,,
 2020,91094,3,WV    ,Union Carbide Corp. Institute Facility,880053,B017,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,,,,,,,
 2020,91095,4,FL    ,Crystal River,628,1GTA,,OPR,"ARP,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91096,4,FL    ,Crystal River,628,1GTB,,OPR,"ARP,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17527,13 +17315,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91109,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91110,5,OH    ,"Clean Energy Future - Lordstown, LLC",60376,2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91111,3,PA    ,Panda Hummel Station,60368,CT3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,767,246767.1,,1681751.7,99944.0,0.5,5.2
-2020,91112,2,PR    ,San Juan Steam Power Plant,880106,SJ7,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91113,2,PR    ,San Juan Steam Power Plant,880106,SJ8,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91114,2,PR    ,San Juan Steam Power Plant,880106,SJ9,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91115,2,PR    ,San Juan Steam Power Plant,880106,SJ10,,OPR,MATS,Tangentially-fired,,,,,,,,,
-2020,91116,3,PA    ,Shell Chemical Appalachia LLC,58933,101,,FUT,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,,,,,,,,,
-2020,91117,3,PA    ,Shell Chemical Appalachia LLC,58933,102,,FUT,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,,,,,,,,,
-2020,91118,3,PA    ,Shell Chemical Appalachia LLC,58933,103,,FUT,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,,,,,,,,,
 2020,91126,5,IL    ,Alsey Station,7818,ACT6,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91130,5,IL    ,Wood River Refinery,880067,BLR19,,OPR,SIPNOX,Other boiler,Natural Gas,GAS,,,,,,,
 2020,91139,3,PA    ,Tenaska Westmoreland Generating Station,60464,101,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,2180,992564.4,,6735601.5,400290.2,2.0,16.2
@@ -17549,7 +17330,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91151,6,TX    ,Port Comfort Peaking Facility,60459,CT2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91152,6,TX    ,"Chamon Power, LLC",60460,CT1,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91153,6,TX    ,"Chamon Power, LLC",60460,CT2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,91154,2,NY    ,Riverbay Corp. - Co-Op City,52168,HPB02,,FUT,SIPNOX,Other boiler,,,,,,,,,
 2020,91155,1,CT    ,Bridgeport Harbor Station,568,BHB5,,OPR,"ARP,RGGI,SIPNOX",Combined cycle,Pipeline Natural Gas,GAS,2180,981885.1,,6296723.9,374204.6,1.9,19.0
 2020,91171,6,OK    ,Mustang,2953,T6,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91172,6,OK    ,Mustang,2953,T7,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -17587,12 +17367,9 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91214,2,NY    ,Cricket Valley Energy Center,57185,U001,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91215,2,NY    ,Cricket Valley Energy Center,57185,U002,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91216,2,NY    ,Cricket Valley Energy Center,57185,U003,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,91219,6,TX    ,Halyard Henderson Energy Center,60268,TBN1,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2020,91220,6,TX    ,Halyard Henderson Energy Center,60268,TBN2,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
 2020,91221,3,PA    ,Trainer Refinery,880025,53,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2020,91222,4,TN    ,Johnsonville,3406,AUX1,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,,,,,,,
 2020,91223,4,TN    ,Johnsonville,3406,AUX2,,OPR,SIPNOX,Dry bottom wall-fired boiler,Pipeline Natural Gas,GAS,,,,,,,
-2020,91225,2,NJ    ,Woodbridge Energy Center,57839,U200,,FUT,ARP,Combined cycle,,,,,,,,,
 2020,91226,6,TX    ,Victoria City Peaking Facility,61241,CT1,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91227,6,TX    ,Victoria City Peaking Facility,61241,CT2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91228,6,TX    ,Victoria Port Peaking Facility,61242,CT1,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
@@ -17602,9 +17379,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91232,1,MA    ,Exelon West Medway II,59882,J4,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91233,1,MA    ,Exelon West Medway II,59882,J5,,OPR,"ARP,RGGI,SIPNOX",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91235,5,MN    ,Black Dog,1904,6,,OPR,"ARP,CSNOX,CSSO2G2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,91236,2,NJ    ,Linden Cogeneration Facility,50006,10001,,FUT,"ARP,CSNOX,CSOSG2,CSSO2G1,RGGI",Combined cycle,,,,,,,,,
-2020,91237,6,TX    ,Power Island,10154,1,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2020,91238,6,TX    ,Power Island,10154,2,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
 2020,91239,3,VA    ,Doswell Limited Partnership,52019,CT3,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91240,3,VA    ,Doswell Limited Partnership,52019,CT2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91241,9,CA    ,Algonquin Power Sanger,57564,8,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17664,7 +17438,6 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91298,6,LA    ,Lake Charles Power Station,60927,1A,,OPR,"ARP,CSOSG2",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91299,4,MS    ,Hinds Energy Facility,55218,2,,OPR,"ARP,CSOSG2",Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91300,5,OH    ,Pratt Paper (OH),880109,B001,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,,,,,,,
-2020,91302,3,MD    ,NIH Cogeneration Facility,56668,CGTC,,OPR,SIPNOX,Combustion turbine,,,,,,,,,
 2020,91303,9,CA    ,AES Alamitos,315,CT1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91304,9,CA    ,AES Alamitos,315,CT2,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91305,9,CA    ,AES Huntington Beach,335,CT1,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
@@ -17673,19 +17446,11 @@ OP_YEAR,UNIT_ID,EPA_REGION,STATE,FACILITY_NAME,ORIS_CODE,UNITID,STACK_IDS,OP_STA
 2020,91310,3,VA    ,AdvanSix Resins and Chemicals - Hopewell,880093,10F,,OPR,SIPNOX,Other boiler,Pipeline Natural Gas,GAS,,,,,,,
 2020,91311,3,PA    ,"CPV Fairview, LLC",60589,CT-2,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Natural Gas,GAS,,,,,,,
 2020,91312,3,PA    ,"CPV Fairview, LLC",60589,CT-1,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Natural Gas,GAS,,,,,,,
-2020,91313,4,NC    ,Asheville,2706,CT5,,OPR,"ARP,CSNOX,CSSO2G1",Combined cycle,,,,,,,,,
-2020,91314,4,NC    ,Asheville,2706,CT7,,OPR,"ARP,CSNOX,CSSO2G1",Combined cycle,,,,,,,,,
 2020,91315,5,WI    ,Riverside Energy Center,55641,CT-03,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91316,5,WI    ,Riverside Energy Center,55641,CT-04,,OPR,"ARP,CSNOX,CSOSG2,CSSO2G1,NSPS4T",Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
 2020,91318,5,IL    ,Lemont Refinery,880076,430B24,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2020,91319,5,IL    ,Lemont Refinery,880076,431B25,,OPR,SIPNOX,Other boiler,Process Gas,GAS,,,,,,,
 2020,91323,9,CA    ,King City Power Plant,10294,GTG,,OPR,ARP,Combined cycle,Pipeline Natural Gas,GAS,,,,,,,
-2020,91324,4,NC    ,Lincoln Combustion Turbine,7277,17,,FUT,"ARP,CSNOX,CSSO2G1",Combustion turbine,,,,,,,,,
-2020,91325,6,TX    ,SJRR Power Peaking Facility,62548,CT2,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2020,91327,6,TX    ,SJRR Power Peaking Facility,62548,CT1,,FUT,"ARP,CSOSG2",Combustion turbine,,,,,,,,,
-2020,91337,6,TX    ,Palestine Power Peaking Facility,62684,CT2,,FUT,"ARP,CSOSG2",,,,,,,,,,
-2020,91339,6,TX    ,Palestine Power Peaking Facility,62684,CT4,,FUT,"ARP,CSOSG2",,,,,,,,,,
 2020,91344,4,FL    ,C D McIntosh Jr Power Plant,676,MGT2,,OPR,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91348,9,CA    ,Stanton Energy Reliability Center,60698,D1,,FUT,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
 2020,91349,9,CA    ,Stanton Energy Reliability Center,60698,D7,,FUT,ARP,Combustion turbine,Pipeline Natural Gas,GAS,,,,,,,
-2020,91367,5,MI    ,Delta Energy Park,63259,DEPS1,,FUT,"ARP,CSNOX,CSOSG2,CSSO2G1",Combustion turbine,,,,,,,,,
