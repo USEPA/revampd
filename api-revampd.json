@@ -1,0 +1,68 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "description": "This is our Open API Spec descrition for RevAMPD.",
+        "title": "RevAMPD Open API Spec 3.0",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "https://revampd-api.app.cloud.gov"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "Unit": {
+            "type":"object",
+            "properties": {
+                "operationYear" : {
+                    "type" : "integer",
+                    "format" : "int32"
+                },
+                "unitId" :{
+                    "type" : "string"
+                },
+                "EPARegion" : {
+                    "type": "integer",
+                    "format" : "int32"
+                }
+
+            }
+        }
+        }
+    },
+    "paths": {
+        "/units/findByOPYear": {
+            "get": {
+                "description": "Returns annual unit data",
+                "parameters": [
+                    {
+                        "name": "OP_YEAR",
+                        "in": "query",
+                        "description": "Operation Year",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Unit"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
