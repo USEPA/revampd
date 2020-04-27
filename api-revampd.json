@@ -15,7 +15,7 @@
             "Unit": {
             "type":"object",
             "properties": {
-                "operationYear" : {
+                "operatingYear" : {
                     "type" : "integer",
                     "format" : "int32"
                 },
@@ -25,21 +25,87 @@
                 "EPARegion" : {
                     "type": "integer",
                     "format" : "int32"
+                },
+                "EPAState":{
+                    "type": "string"
+                },
+                "facilityName" : {
+                    "type": "string"
+                },
+                "orisCode": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "stackId": {
+                    "type": "string"
+                },
+                "operatingStatus": {
+                    "type": "string"
+                },
+                "programCode": {
+                    "type": "string"
+                },
+                "unitType": {
+                    "type": "string"
+                },
+                "primaryFuel": {
+                    "type": "string"
+                },
+                "primaryFuelGroup": {
+                    "type": "string"
+                },
+                "operatingTime": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "grossLoad": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "steamLoad": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "heatInput": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "co2Mass": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "so2Mass": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "noxMass": {
+                    "type": "number",
+                    "format": "float"
                 }
-
             }
         }
-        }
+     },
+     "securitySchemes": {
+         "basicAuth": {
+             "type": "http",
+             "scheme": "basic"
+         },
+         "api_key": {
+             "type":"apiKey",
+             "name":"api_key",
+             "in":"query"
+         }
+     }
     },
     "paths": {
-        "/units/findByOPYear": {
+        "/units/findByOpYear": {
             "get": {
                 "description": "Returns annual unit data",
                 "parameters": [
                     {
-                        "name": "OP_YEAR",
+                        "name": "operatingYear",
                         "in": "query",
-                        "description": "Operation Year",
+                        "description": "Operating year",
                         "required": true,
                         "schema": {
                             "type": "integer",
@@ -60,6 +126,22 @@
                                 }
                             }
                         }
+                    },
+                    "204": {
+                        "description": "No data available",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Unit"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Invalid query"
                     }
                 }
             }
