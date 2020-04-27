@@ -15,7 +15,7 @@
             "Unit": {
             "type":"object",
             "properties": {
-                "operationYear" : {
+                "operatingYear" : {
                     "type" : "integer",
                     "format" : "int32"
                 },
@@ -39,13 +39,13 @@
                 "stackId": {
                     "type": "string"
                 },
-                "operationStatus": {
+                "operatingStatus": {
                     "type": "string"
                 },
                 "programCode": {
                     "type": "string"
                 },
-                "unitTypeDesc": {
+                "unitType": {
                     "type": "string"
                 },
                 "primaryFuel": {
@@ -103,9 +103,9 @@
                 "description": "Returns annual unit data",
                 "parameters": [
                     {
-                        "name": "opYear",
+                        "name": "operatingYear",
                         "in": "query",
-                        "description": "Operation Year",
+                        "description": "Operating Year",
                         "required": true,
                         "schema": {
                             "type": "integer",
