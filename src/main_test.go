@@ -1,61 +1,85 @@
 package main
 
 import (
-	"encoding/xml"
-	"io"
-	"strings"
+	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"os"
 	"testing"
+
+	log "github.com/sirupsen/logrus"
 )
 
-// Poor man's HTML validator, courtesy of https://stackoverflow.com/a/52410528
-func validateHtml(r io.Reader) bool {
-	d := xml.NewDecoder(r)
+var dbService *DatabaseService
 
-	// Configure the decoder for HTML; leave off strict and autoclose for XHTML
-	d.Strict = true
-	d.AutoClose = xml.HTMLAutoClose
-	d.Entity = xml.HTMLEntity
-	for {
-		_, err := d.Token()
-		switch err {
-		case io.EOF:
-			return true // We're done, it's valid!
-		case nil:
-		default:
-			return false // Oops, something wasn't right
+func TestMain(m *testing.M) {
+	var err error
+
+	dbService, err = CreateDatabaseService()
+
+	if (err != nil || dbService == nil) {
+		log.Fatal("Could not create database service: " + err.Error())
+	}
+  
+	code := m.Run()
+ 
+	os.Exit(code)
+}
+
+func TestPing(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/ping", nil)
+    response := httptest.NewRecorder()
+	
+	ping(response, req)
+
+    if isExpectedResponseCode(t, http.StatusOK, response.Code) {
+    	if body := response.Body.String(); body != "OK" {
+    	    t.Errorf("Expected 'OK'. Got %s", body)
 		}
 	}
 }
 
-// Very contrived test for a very basic application.
-func TestHtml(t *testing.T) {
-	path := "/"
-	ok := validateHtml(strings.NewReader(helloHtml(path)))
-	if !ok {
-		t.Fatal("HTML was not valid")
+func TestFindUnitsByOperatingYear(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=2017", nil)
+	response := httptest.NewRecorder()
+
+	if err := dbService.database.Ping(); err != nil {
+			log.Println("Database Error ", err)
+		}
+
+	findUnitsByOperatingYear(response, req, dbService)
+
+	if isExpectedResponseCode(t, http.StatusOK, response.Code) {
+		units := make([]Unit,0)
+		err := json.Unmarshal(response.Body.Bytes(), &units)
+		if err != nil {
+			t.Errorf("Could not unmarshall JSON response: %s", err)
+		}
 	}
 }
 
-func TestGreeting(t *testing.T) {
-	path := "/"
-	text := helloHtml(path)
-	if strings.Contains(text, "Salutations") {
-		t.Fatal("Wrong greeting in text")
-	}
+func TestFindUnitsBadOperatingYear(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=AAAA", nil)
+	response := httptest.NewRecorder()
+
+	findUnitsByOperatingYear(response, req, dbService)
+
+	isExpectedResponseCode(t, http.StatusBadRequest, response.Code)
 }
 
-func TestJavaScriptInjection(t *testing.T) {
-	path := "/<script>alert('hello')</script>"
-	text := helloHtml(path)
-	if strings.Contains(text, "<script>") {
-		t.Fatal("JavaScript injection attack")
-	}
+func TestFindUnitsNoOperatingYear(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear", nil)
+	response := httptest.NewRecorder()
+
+	findUnitsByOperatingYear(response, req, dbService)
+
+	isExpectedResponseCode(t, http.StatusBadRequest, response.Code)	
 }
 
-func TestConvertFoo(t *testing.T) {
-	path := "/foo/bar"
-	text := convertFoo(path)
-	if strings.Contains(text, "foo") {
-		t.Fatal("'foo' in path")
+func isExpectedResponseCode(t *testing.T, expected, actual int) (bool) {
+    if expected != actual {
+		t.Errorf("Expected response code %d. Got %d\n", expected, actual)
+		return false
 	}
+	return true
 }
