@@ -10,5 +10,5 @@ applications:
   # defined in bin/setup-cloudgov
   - revampd-psql
   env:
-    GOVERSION: go1.12
+    GOVERSION: go1.14.1
     GOPACKAGENAME: github.com/USEPA/revampd

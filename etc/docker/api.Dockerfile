@@ -1,5 +1,5 @@
 # should match cloud.gov manifest GOVERSION
-FROM golang:1.12
+FROM golang:1.14.1
 
 # install dep
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
