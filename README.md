@@ -1,6 +1,6 @@
 # revAMPD
 
-![Build, test, deploy](https://github.com/USEPA/revampd/workflows/Build,%20test,%20deploy/badge.svg)
+![](https://github.com/USEPA/revampd/workflows/Build/badge.svg)
 
 This is a demo project for the re-engineering of the EPA's Air Markets Program Data (AMPD) website.
 
