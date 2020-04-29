@@ -26,19 +26,6 @@ func TestMain(m *testing.M) {
 	os.Exit(code)
 }
 
-func TestPing(t *testing.T) {
-	req, _ := http.NewRequest("GET", "/ping", nil)
-    response := httptest.NewRecorder()
-	
-	ping(response, req)
-
-    if isExpectedResponseCode(t, http.StatusOK, response.Code) {
-    	if body := response.Body.String(); body != "OK" {
-    	    t.Errorf("Expected 'OK'. Got %s", body)
-		}
-	}
-}
-
 func TestFindUnitsByOperatingYear(t *testing.T) {
 	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=2017", nil)
 	response := httptest.NewRecorder()
