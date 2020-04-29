@@ -98,7 +98,7 @@
      }
     },
     "paths": {
-        "/units/findByOpYear": {
+        "/units/findByOperatingYear": {
             "get": {
                 "description": "Returns annual unit data",
                 "parameters": [
@@ -128,20 +128,10 @@
                         }
                     },
                     "204": {
-                        "description": "No data available",
-                        "content": {
-                            "application/json": {
-                                "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#/components/schemas/Unit"
-                                    }
-                                }
-                            }
-                        }
+                        "description": "No units were found"
                     },
                     "400": {
-                        "description": "Invalid query"
+                        "description": "A valid operating year is required"
                     }
                 }
             }

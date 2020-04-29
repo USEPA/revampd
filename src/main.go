@@ -1,14 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"html"
 	"net/http"
 	"os"
-	"regexp"
+	"encoding/json"
+	"strconv"
 
-	"github.com/jmoiron/sqlx"
-	_ "github.com/lib/pq"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -17,43 +14,63 @@ func init() {
 	log.SetLevel(log.DebugLevel)
 }
 
-func getPostgreSQLVersion() (string, error) {
-	db, err := sqlx.Connect("postgres", os.Getenv("DATABASE_URL"))
-	if err != nil {
-		return "", err
+func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService *DatabaseService) {
+
+	years, ok := r.URL.Query()["operatingYear"]
+	
+	// Check to see if the operating year was supplied
+	if !ok || len(years[0]) < 1 {
+		log.Debug("A valid operating year is required")
+		w.WriteHeader(http.StatusBadRequest)
+		w.Write([]byte("Operating year is required"))
+		return		
 	}
 
-	rows := []string{}
-	err = db.Select(&rows, "SELECT version()")
+	// Query()["key"] will return an array of items, 
+	// we only want the single item.
+	yearString := years[0]
+
+	// Check to see if the operating year is a valid int
+	year, err := strconv.Atoi(yearString)
 	if err != nil {
-		return "", err
+		log.Debug("Can't convert year to int.")
+		w.WriteHeader(http.StatusBadRequest)
+		w.Write([]byte("A valid operating year is required"))
+		return		
 	}
 
-	return rows[0], nil
-}
+	units, err := dbService.FindUnitsByOperatingYear(year)
 
-func helloHtml(path string) string {
-	no_foo := convertFoo(path)
-	return fmt.Sprintf("<h1>Welcome to revAMPD</h1>\n<p>You've requested: %s</p>\n", html.EscapeString(no_foo))
-}
-
-func convertFoo(path string) string {
-	re := regexp.MustCompile(`(?i)foo`)
-	path = re.ReplaceAllString(path, "bar")
-	return path
+	// Check the results
+	if err == nil {
+		if len(units) == 0 {
+			log.Debug("No units found for year ", year)
+			w.WriteHeader(http.StatusNoContent)
+			w.Write([]byte("No units were found"))
+			return
+		} else {
+			jUnits, err := json.Marshal(units)
+			if err == nil {
+				w.Write(jUnits)
+			}
+		}
+	} else {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return		
+	}
 }
 
 func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintf(w, helloHtml(r.URL.Path))
-	})
 
-	version, err := getPostgreSQLVersion()
+	dbService, err := CreateDatabaseService()
+
 	if err != nil {
-		log.Error(err)
-	} else {
-		log.Debug(version)
+		log.Fatal("Could create database service: " + err.Error())
 	}
+
+	http.HandleFunc("/units/findByOperatingYear", func(w http.ResponseWriter, r *http.Request) {
+			findUnitsByOperatingYear(w, r, dbService)
+	})
 
 	log.Debug("Starting revAMPD API backend, listening on port " + os.Getenv("PORT"))
 	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
