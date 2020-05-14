@@ -24,11 +24,17 @@ jobs:
     - name: Build and test
       run: docker-compose run --rm api make
       
-    - name: ZAP Scan
-      if: ${{ success() }}
-      uses: zaproxy/action-baseline@v0.3.0
-      with:
-        target: 'http://localhost:9080'
+    - name: Ping docker container
+      # frontend
+      run: |
+        ping -i 0.2 localhost:9080
+        ping -1 0.2 localhost:8080
+      
+ #   - name: ZAP Scan
+  #    if: ${{ success() }}
+   #   uses: zaproxy/action-baseline@v0.3.0
+    #  with:
+     #   target: 'http://localhost:9080'
     
     - name: Make the cloudgov-deploy script executable
       if: ${{ success() }}
