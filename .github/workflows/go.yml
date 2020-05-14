@@ -27,6 +27,7 @@ jobs:
     - name: Ping docker container
       # frontend
       run: |
+        ip addr show docker0
         ping -i 0.2 localhost:9080
         ping -1 0.2 localhost:8080
       
