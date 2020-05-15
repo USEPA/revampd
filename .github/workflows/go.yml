@@ -25,9 +25,16 @@ jobs:
       run: docker-compose run --rm api make
     
     - name: Make the cloudgov-deploy script executable
-      if: success() 
+      if: ${{ success() }}
       run: chmod +x ./bin/deploy-cloudgov
     
     - name: Deploy the app to cloud.gov
-      if: success()
+      if: ${{ success() }}
       run: ./bin/deploy-cloudgov
+      
+    - name: ZAP Scan
+      if: ${{ success() }}
+      uses: zaproxy/action-baseline@v0.3.0
+      with:
+        target: 'https://revampd.app.cloud.gov'
+        cmd_options: '-I' # Don't fail on WARNings
