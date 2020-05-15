@@ -37,4 +37,4 @@ jobs:
       uses: zaproxy/action-baseline@v0.3.0
       with:
         target: 'https://revampd.app.cloud.gov'
-        cmd_options: '-I'
+        cmd_options: '-I' # Don't fail on WARNings
