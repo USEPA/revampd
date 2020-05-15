@@ -24,13 +24,6 @@ jobs:
     - name: Build and test
       run: docker-compose run --rm api make
       
-    - name: Ping docker container
-      # frontend
-      run: |
-        ip addr show docker0
-        ping -W 5 172.17.0.1
-        nmap -p 9080 172.17.0.1
-      
     - name: ZAP Scan
       uses: zaproxy/action-baseline@v0.3.0
       with:
