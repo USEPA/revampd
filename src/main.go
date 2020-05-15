@@ -1,9 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"net/http"
 	"os"
-	"encoding/json"
 	"strconv"
 
 	log "github.com/sirupsen/logrus"
@@ -17,16 +17,16 @@ func init() {
 func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService *DatabaseService) {
 
 	years, ok := r.URL.Query()["operatingYear"]
-	
+
 	// Check to see if the operating year was supplied
 	if !ok || len(years[0]) < 1 {
 		log.Debug("A valid operating year is required")
 		w.WriteHeader(http.StatusBadRequest)
 		w.Write([]byte("Operating year is required"))
-		return		
+		return
 	}
 
-	// Query()["key"] will return an array of items, 
+	// Query()["key"] will return an array of items,
 	// we only want the single item.
 	yearString := years[0]
 
@@ -36,7 +36,7 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 		log.Debug("Can't convert year to int.")
 		w.WriteHeader(http.StatusBadRequest)
 		w.Write([]byte("A valid operating year is required"))
-		return		
+		return
 	}
 
 	units, err := dbService.FindUnitsByOperatingYear(year)
@@ -56,10 +56,14 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 		}
 	} else {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return		
+		return
 	}
 }
 
+//Allows all sites to access the API. This can be fine tuned
+func enableCors(w *http.ResponseWriter) {
+	(*w).Header().Set("Access-Control-Allow-Origin", "*")
+}
 func main() {
 
 	dbService, err := CreateDatabaseService()
@@ -69,7 +73,8 @@ func main() {
 	}
 
 	http.HandleFunc("/units/findByOperatingYear", func(w http.ResponseWriter, r *http.Request) {
-			findUnitsByOperatingYear(w, r, dbService)
+		enableCors(&w)
+		findUnitsByOperatingYear(w, r, dbService)
 	})
 
 	log.Debug("Starting revAMPD API backend, listening on port " + os.Getenv("PORT"))

@@ -1,0 +1,140 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "description": "This is our Open API Spec descrition for RevAMPD.",
+        "title": "RevAMPD Open API Spec 3.0",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:8080/"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "Unit": {
+            "type":"object",
+            "properties": {
+                "operatingYear" : {
+                    "type" : "integer",
+                    "format" : "int32"
+                },
+                "unitId" :{
+                    "type" : "string"
+                },
+                "EPARegion" : {
+                    "type": "integer",
+                    "format" : "int32"
+                },
+                "EPAState":{
+                    "type": "string"
+                },
+                "facilityName" : {
+                    "type": "string"
+                },
+                "orisCode": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "stackId": {
+                    "type": "string"
+                },
+                "operatingStatus": {
+                    "type": "string"
+                },
+                "programCode": {
+                    "type": "string"
+                },
+                "unitType": {
+                    "type": "string"
+                },
+                "primaryFuel": {
+                    "type": "string"
+                },
+                "primaryFuelGroup": {
+                    "type": "string"
+                },
+                "operatingTime": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "grossLoad": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "steamLoad": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "heatInput": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "co2Mass": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "so2Mass": {
+                    "type": "number",
+                    "format": "float"
+                },
+                "noxMass": {
+                    "type": "number",
+                    "format": "float"
+                }
+            }
+        }
+     },
+     "securitySchemes": {
+         "basicAuth": {
+             "type": "http",
+             "scheme": "basic"
+         },
+         "api_key": {
+             "type":"apiKey",
+             "name":"api_key",
+             "in":"query"
+         }
+     }
+    },
+    "paths": {
+        "/units/findByOperatingYear": {
+            "get": {
+                "description": "Returns annual unit data",
+                "parameters": [
+                    {
+                        "name": "operatingYear",
+                        "in": "query",
+                        "description": "Operating year",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Unit"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "204": {
+                        "description": "No units were found"
+                    },
+                    "400": {
+                        "description": "A valid operating year is required"
+                    }
+                }
+            }
+        }
+    }
+}
