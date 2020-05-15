@@ -28,11 +28,10 @@ jobs:
       # frontend
       run: |
         ip addr show docker0
-        ping -i 0.2 172.17.0.1:9080
-        ping -1 0.2 172.17.0.1:8080
+        ping -W 5 172.17.0.1
+        nmap -p 9080 172.17.0.1
       
     - name: ZAP Scan
-      if: ${{ success() }}
       uses: zaproxy/action-baseline@v0.3.0
       with:
         target: 'http://172.17.0.1:9080'
