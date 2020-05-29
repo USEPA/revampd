@@ -25,12 +25,12 @@ jobs:
       run: docker-compose run --rm api make
 
     - name: Build and ZAP Scan
-        if: $ {{success()}}
-        uses: zaproxy/action-baseline@v0.3.0
-        run: docker-compose up -d
-        with: 
-            target: 'http://localhost:9080'
-            cmd_options: '-I'
+      if: ${{ success() }}
+      uses: zaproxy/action-baseline@v0.3.0
+      run: docker-compose up -d
+      with: 
+          target: 'http://localhost:9080'
+          cmd_options: '-I'
 
 
     - name: Make the cloudgov-deploy script executable
