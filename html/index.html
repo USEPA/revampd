@@ -35,7 +35,7 @@
   <!-- End Google Tag Manager -->  
   <!--end OneEPA line 31-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="style.css">
   <style>
   .fakeimg {
     height: 200px;
@@ -153,10 +153,10 @@
 
 
 <div class="container" style="margin-top:30px" id="app">
-  <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-8" ></div>
         <h2>Data Table</h2>
         <h5>Title description, Dec 7, 2017</h5>
+        <div class ="scrollable">
         <table class="table">
           <thead class="thead-dark">
             <tr>
@@ -187,8 +187,8 @@
               <td> {{index }}</td>
               <td>{{ unit.operatingYear }}</td>
               <td>{{ unit.unitID }}</td>
-              <td>unknown</td>
-              <td>unknown</td>
+              <td>{{unit.EPARegion}}</td>
+              <td>{{unit.EPAState}}</td>
               <td>{{ unit.facilityName }}</td>
               <td>{{ unit.orisCode }}</td>
               <td>{{ unit.stackId }}</td>
@@ -206,7 +206,9 @@
               <td>{{ unit.noxMass}}</td>
             </tr>
           </tbody>
-        </table>         
+        </table>  
+      </div>     
+      </div>  
                     <h2>Graph</h2>
                   <h5>Title description, Sep 2, 2017</h5>
                   <div class="fakeimg">Graph</div>
@@ -235,10 +237,10 @@
                   </li>
                 </ul>
                 <hr class="d-sm-none">
-              </div>
+              
 
             </div>
-          </div>
+  
 
         </div>
       </div>
