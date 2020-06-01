@@ -1,20 +1,21 @@
 name: Build, test, deploy
 
 on:
+ 
+  pull_request:
+    branches: [ master ]
   push:
     branches: [ master ]
-  
 
 jobs:
-
   build:
     name: Build, test, deploy
-    runs-on: ubuntu-latest
-    
+    runs-on: "ubuntu-latest"
+      
     env:
       CF_USERNAME: ${{ secrets.deployerusername }}
       CF_PASSWORD: ${{ secrets.deployerpw }}
-        
+          
     steps:
 
     - name: Check out code
@@ -36,15 +37,13 @@ jobs:
 
     - name: clean up after scan
       run: docker-compose down
-      
-
 
     - name: Make the cloudgov-deploy script executable
-      if: ${{ success() }}
+    #Included condition to deploy if this is a git push
+      if: ${{ success() }} && github.event_name == 'push' 
       run: chmod +x ./bin/deploy-cloudgov
     
     - name: Deploy the app to cloud.gov
-      if: ${{ success() }}
+    #Included condition to deploy if this is a git push
+      if: ${{ success() }} && github.event_name == 'push'
       run: ./bin/deploy-cloudgov
-      
-    
