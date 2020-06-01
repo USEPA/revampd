@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!--start from OneEPA Standalone template line 5-->
+  <!--start OneEPA Standalone template line 5-->
   <meta http-equiv="ImageToolbar" content="false" />
   <meta http-equiv="cleartype" content="on" />
   <meta name="HandheldFriendly" content="true" />
   <link rel="shortcut icon" href="https://www.epa.gov/sites/all/themes/epa/favicon.ico" type="image/vnd.microsoft.icon" />
   <meta name="MobileOptimized" content="width" />
-  <!--end from OneEPA Standalone template line 9-->
+  <!--end OneEPA Standalone template line 9-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--OneEPA start line 11-->
   <!--googleon: all-->
@@ -35,7 +35,7 @@
   <!-- End Google Tag Manager -->  
   <!--end OneEPA line 31-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="style.css">
   <style>
   .fakeimg {
     height: 200px;
@@ -153,10 +153,10 @@
 
 
 <div class="container" style="margin-top:30px" id="app">
-  <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-8" ></div>
         <h2>Data Table</h2>
         <h5>Title description, Dec 7, 2017</h5>
+        <div class ="scrollable">
         <table class="table">
           <thead class="thead-dark">
             <tr>
@@ -187,8 +187,8 @@
               <td> {{index }}</td>
               <td>{{ unit.operatingYear }}</td>
               <td>{{ unit.unitID }}</td>
-              <td>unknown</td>
-              <td>unknown</td>
+              <td>{{unit.EPARegion}}</td>
+              <td>{{unit.EPAState}}</td>
               <td>{{ unit.facilityName }}</td>
               <td>{{ unit.orisCode }}</td>
               <td>{{ unit.stackId }}</td>
@@ -206,7 +206,9 @@
               <td>{{ unit.noxMass}}</td>
             </tr>
           </tbody>
-        </table>         
+        </table>  
+      </div>     
+      </div>  
                     <h2>Graph</h2>
                   <h5>Title description, Sep 2, 2017</h5>
                   <div class="fakeimg">Graph</div>
@@ -235,10 +237,10 @@
                   </li>
                 </ul>
                 <hr class="d-sm-none">
-              </div>
+              
 
             </div>
-          </div>
+  
 
         </div>
       </div>

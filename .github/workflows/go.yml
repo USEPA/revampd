@@ -23,7 +23,23 @@ jobs:
 
     - name: Build and test
       run: docker-compose run --rm api make
-    
+
+    - name: Build for scan
+      if: ${{ success() }}
+      run: docker-compose up -d
+
+    - name: ZAP Scan
+      if: ${{ success() }}
+      uses: zaproxy/action-baseline@v0.3.0
+      with:
+        target: 'http://localhost:9080'
+        cmd_options: '-I' # Don't fail on WARNings
+
+    - name: clean up after scan
+      run: docker-compose down
+      
+
+
     - name: Make the cloudgov-deploy script executable
       if: ${{ success() }}
       run: chmod +x ./bin/deploy-cloudgov
@@ -32,9 +48,4 @@ jobs:
       if: ${{ success() }}
       run: ./bin/deploy-cloudgov
       
-    - name: ZAP Scan
-      if: ${{ success() }}
-      uses: zaproxy/action-baseline@v0.3.0
-      with:
-        target: 'https://revampd.app.cloud.gov'
-        cmd_options: '-I' # Don't fail on WARNings
+    
