@@ -1,7 +1,5 @@
 # revAMPD
 
-![Build and test](https://github.com/USEPA/revampd/workflows/Build%20and%20test/badge.svg)
-
 ![Build, test, deploy](https://github.com/USEPA/revampd/workflows/Build,%20test,%20deploy/badge.svg)
 
 
