@@ -1,4 +1,4 @@
-name: Build, test, deploy
+name: Build and test
 
 on:
   
@@ -8,7 +8,7 @@ on:
 jobs:
 
   build:
-    name: Build, test, deploy
+    name: Build and test
     runs-on: ubuntu-latest
     
     env:
