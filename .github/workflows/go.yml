@@ -20,13 +20,15 @@ jobs:
 
     - name: Check out code
       uses: actions/checkout@v2
+      run: echo "Completed Check out code"
 
     - name: Build and test
-      run: docker-compose run --rm api make
+      run: docker-compose run --rm api make && echo "Completed Build and test"
+      
 
     - name: Build for scan
       if: ${{ success() }}
-      run: docker-compose up -d
+      run: docker-compose up -d && echo "Completed Build for scan"
 
     - name: ZAP Scan
       if: ${{ success() }}
@@ -34,16 +36,17 @@ jobs:
       with:
         target: 'http://localhost:9080'
         cmd_options: '-I' # Don't fail on WARNings
+      run: echo "Completed Zap Scan and test"
 
     - name: clean up after scan
-      run: docker-compose down
+      run: docker-compose down && echo "Completed clean up after scan"
 
     - name: Make the cloudgov-deploy script executable
     #Included condition to deploy if this is a git push
-      if: ${{ success() }} && github.event_name == 'push' 
-      run: chmod +x ./bin/deploy-cloudgov
+      if: ${{ success() && github.event_name == 'push' }}
+      run: chmod +x ./bin/deploy-cloudgov && echo "Make the cloudgov-deploy script executable"
     
     - name: Deploy the app to cloud.gov
     #Included condition to deploy if this is a git push
-      if: ${{ success() }} && github.event_name == 'push'
-      run: ./bin/deploy-cloudgov
+      if: ${{ success() && github.event_name == 'push' }}
+      run: ./bin/deploy-cloudgov && echo "Deploy"
