@@ -20,11 +20,10 @@ jobs:
 
     - name: Check out code
       uses: actions/checkout@v2
-      run: echo "Completed Check out code"
+     
 
     - name: Build and test
       run: docker-compose run --rm api make && echo "Completed Build and test"
-      
 
     - name: Build for scan
       if: ${{ success() }}
@@ -36,7 +35,6 @@ jobs:
       with:
         target: 'http://localhost:9080'
         cmd_options: '-I' # Don't fail on WARNings
-      run: echo "Completed Zap Scan and test"
 
     - name: clean up after scan
       run: docker-compose down && echo "Completed clean up after scan"
