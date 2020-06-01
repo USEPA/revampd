@@ -7,8 +7,6 @@ This is a demo project for the re-engineering of the EPA's Air Markets Program D
 
 Currently, `revampd` is a static file frontend and an API backend.
 
-There are two status badges to reflect the pull and push status.
-
 ## Development
 
 ### Initial setup
