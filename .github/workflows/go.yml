@@ -1,31 +1,33 @@
 name: Build, test, deploy
 
 on:
+ 
+  pull_request:
+    branches: [ master ]
   push:
     branches: [ master ]
-  
 
 jobs:
-
   build:
     name: Build, test, deploy
-    runs-on: ubuntu-latest
-    
+    runs-on: "ubuntu-latest"
+      
     env:
       CF_USERNAME: ${{ secrets.deployerusername }}
       CF_PASSWORD: ${{ secrets.deployerpw }}
-        
+          
     steps:
 
     - name: Check out code
       uses: actions/checkout@v2
+     
 
     - name: Build and test
-      run: docker-compose run --rm api make
+      run: docker-compose run --rm api make && echo "Completed Build and test"
 
     - name: Build for scan
       if: ${{ success() }}
-      run: docker-compose up -d
+      run: docker-compose up -d && echo "Completed Build for scan"
 
     - name: ZAP Scan
       if: ${{ success() }}
@@ -35,16 +37,14 @@ jobs:
         cmd_options: '-I' # Don't fail on WARNings
 
     - name: clean up after scan
-      run: docker-compose down
-      
-
+      run: docker-compose down && echo "Completed clean up after scan"
 
     - name: Make the cloudgov-deploy script executable
-      if: ${{ success() }}
-      run: chmod +x ./bin/deploy-cloudgov
+    #Included condition to deploy if this is a git push
+      if: ${{ success() && github.event_name == 'push' }}
+      run: chmod +x ./bin/deploy-cloudgov && echo "Make the cloudgov-deploy script executable"
     
     - name: Deploy the app to cloud.gov
-      if: ${{ success() }}
-      run: ./bin/deploy-cloudgov
-      
-    
+    #Included condition to deploy if this is a git push
+      if: ${{ success() && github.event_name == 'push' }}
+      run: ./bin/deploy-cloudgov && echo "Deploy"
