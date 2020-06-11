@@ -5,7 +5,7 @@
 set -e
 
 CF_ORG="epa-prototyping"
-CF_SPACE="dev-ampd"
+CF_SPACE="revampd"
 DB_NAME="revampd-psql" # bound to app in etc/manifests/api.yml
 
 cf target -o $CF_ORG -s $CF_SPACE

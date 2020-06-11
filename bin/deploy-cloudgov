@@ -4,7 +4,7 @@ set -e
 
 CF_LOGIN="https://api.fr.cloud.gov"
 CF_ORG="epa-prototyping"
-CF_SPACE="dev-ampd"
+CF_SPACE="revampd"
 API_NAME="revampd-api"
 API_MANIFEST="etc/manifests/api.yml"
 FRONTEND_NAME="revampd"
