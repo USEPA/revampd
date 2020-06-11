@@ -153,20 +153,26 @@
 
 
 <div class="container" style="margin-top:30px" id="app">
-    <div class="col-sm-8" ></div>
+  <div class="row">
+    <div class="col-sm-8" >
         <h2>Data Table</h2>
-        <h5>Title description, Dec 7, 2017</h5>
+        <h5> Select Year</h5>
+        <select class="form-control" v-model="selected" v-on:change="selectYear($event,selected)">
+          <option v-for="option in options" v-bind:value="option.value">
+            {{ option.text }}
+          </option>
+        </select>
         <div class ="scrollable">
         <table class="table">
           <thead class="thead-dark">
             <tr>
               <th scope="col">#</th>
               <th scope="col">Operating Year</th>
-              <th scope="col">Unit ID</th>
               <th scope="col">EPA Region</th>
               <th scope="col">EPA State</th>
               <th scope="col">Facility Name</th>
               <th scope="col">oris Code</th>
+              <th scope="col">Unit ID</th>
               <th scope="col">stack ID</th>
               <th scope="col">Operating Status</th>
               <th scope="col">Program Code</th>
@@ -186,11 +192,11 @@
             <tr v-for="(unit, index) in results">
               <td> {{index }}</td>
               <td>{{ unit.operatingYear }}</td>
-              <td>{{ unit.unitID }}</td>
               <td>{{unit.EPARegion}}</td>
               <td>{{unit.EPAState}}</td>
               <td>{{ unit.facilityName }}</td>
               <td>{{ unit.orisCode }}</td>
+              <td>{{ unit.unitID }}</td>
               <td>{{ unit.stackId }}</td>
               <td>{{ unit.operatingStatus}}</td>
               <td>{{ unit.programCode }}</td>
@@ -207,18 +213,17 @@
             </tr>
           </tbody>
         </table>  
-      </div>     
-      </div>  
-                    <h2>Graph</h2>
+      </div>
+      <h2>Graph</h2>
                   <h5>Title description, Sep 2, 2017</h5>
                   <div class="fakeimg">Graph</div>
                   <p>Some text..</p>
                   <p>English is better.</p>
-                </div>
-              <div class="col-sm-4">
+                
+    </div>   
+    <div class="col-sm-4" >
                 <h2>API Calls</h2>
-                <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
-                  &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+                <pre><code>{{apiCall}}
                   </code></pre>
                 <h3>Some Links</h3>
                 <p>Lorem ipsum dolor sit ame.</p>
@@ -238,10 +243,10 @@
                 </ul>
                 <hr class="d-sm-none">
               
-
+              </div>
             </div>
-  
-
+          </div>  
+        </div>
         </div>
       </div>
     </div>
