@@ -111,6 +111,26 @@
                             "type": "integer",
                             "format": "int32"
                         }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Number of items to skip before result set collection",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of results to return",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "format": "int32"
+                        }
                     }
                 ],
                 "responses": {
@@ -131,7 +151,7 @@
                         "description": "No units were found"
                     },
                     "400": {
-                        "description": "A valid operating year is required"
+                        "description": "Bad request"
                     }
                 }
             }
