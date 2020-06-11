@@ -14,7 +14,7 @@ function buildUrl (url) {
     },
     methods: {
       getPosts(section) {
-        let url = apiUrl+section+"?operatingYear=2018";
+        let url = API_URL+section+"?operatingYear=2018";
         console.log(url);
         axios.get(url).then(response => {
         console.log(response.data);
