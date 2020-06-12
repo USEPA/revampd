@@ -33,7 +33,9 @@ Vue.component('paginate', VuejsPaginate)
     },
 
     clickCallback: function(pageNum) {
-      this.getUnitData("/units/findByOperatingYear",this.selected, limit=20, offset=pageNum)
+      pageOffset =  (pageNum -1) * 20
+
+      this.getUnitData("/units/findByOperatingYear",this.selected, limit=20, offset=pageOffset)
       console.log(pageNum)
     }
  
