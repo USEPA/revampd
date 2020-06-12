@@ -4,4 +4,3 @@ applications:
   memory: 64M
   domain: app.cloud.gov
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  ssi: enabled
