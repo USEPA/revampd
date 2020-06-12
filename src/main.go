@@ -27,16 +27,25 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 		w.Write([]byte("Operating year is required"))
 		return
 	}
+
+	// Check to see if the operating year is a valid int
+	year, err := strconv.Atoi(years)
+	if err != nil || year < 0 {
+		log.Debug("Can't convert year to int.")
+		w.WriteHeader(http.StatusBadRequest)
+		w.Write([]byte("A valid operating year is required"))
+		return
+	}
 	//using default if there no limit or offset
 	if len(limitString) < 1 {
 		log.Debug("setting limit to 100")
 		limitString = "100"
 	}
 	limit, err := strconv.Atoi(limitString)
-	if err != nil {
+	if err != nil || limit < 0 {
 		log.Debug("Can't convert limit to int.")
 		w.WriteHeader(http.StatusBadRequest)
-		w.Write([]byte("invalid limit"))
+		w.Write([]byte("invalid limit. Is it a positive integer?"))
 		return
 	}
 
@@ -45,23 +54,10 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 		offsetString = "0"
 	}
 	offset, err := strconv.Atoi(offsetString)
-	if err != nil {
-		log.Debug("Can't convert offset to int.")
+	if err != nil || offset < 0 {
+		log.Debug("Can't convert offset to int. Is it a positive integer?")
 		w.WriteHeader(http.StatusBadRequest)
-		w.Write([]byte("invalid offset"))
-		return
-	}
-
-	// Query()["key"] will return an array of items,
-	// we only want the single item.
-	//yearString := years[0]
-
-	// Check to see if the operating year is a valid int
-	year, err := strconv.Atoi(years)
-	if err != nil {
-		log.Debug("Can't convert year to int.")
-		w.WriteHeader(http.StatusBadRequest)
-		w.Write([]byte("A valid operating year is required"))
+		w.Write([]byte("invalid offset. Is it a positive integer?"))
 		return
 	}
 

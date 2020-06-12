@@ -1,5 +1,5 @@
 //var apiUrl = <!--# echo var="API_URL" -->;
-
+Vue.component('paginate', VuejsPaginate)
   
   const vm = new Vue({
     el: '#app',
@@ -11,27 +11,31 @@
       { text: '2019', value:'2019'}
     ],
     apiCall: '',
-    results: []
+    results: [],
+    pageNumber: 0,
     },
     mounted () {
-      this.getUnitData("/units/findByOperatingYear",this.selected);
+      this.getUnitData("/units/findByOperatingYear",this.selected, limit = 20, offset=0);
     },
     methods: {
-      getUnitData(section, year) {
-        let url = apiUrl+section+"?operatingYear="+ year;
-        console.log(url);
-        axios.get(url).then(response => {
+
+      getUnitData(section, year, limit =20, offset=0) {
+        this.apiCall = apiUrl+section+"?operatingYear="+ year + "&limit="+limit+ "&offset="+offset
+        console.log(this.apiCall);
+        axios.get(this.apiCall).then(response => {
         console.log(response.data);
           this.results = response.data;
         }).catch( error => { console.log(error); });
       },
+
     selectYear(event, year){
-      
       this.getUnitData("/units/findByOperatingYear", year)
-      this.showConstructedUrl("/units/findByOperatingYear",year)
     },
-    showConstructedUrl(section, year){
-        this.apiCall= apiUrl+section+"?operatingYear="+year;
+
+    clickCallback: function(pageNum) {
+      this.getUnitData("/units/findByOperatingYear",this.selected, limit=20, offset=pageNum)
+      console.log(pageNum)
     }
+ 
   }
   });

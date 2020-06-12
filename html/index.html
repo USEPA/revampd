@@ -162,11 +162,17 @@
             {{ option.text }}
           </option>
         </select>
+        <paginate class='pagination'
+        :page-count="10"
+        :prev-text="prev"
+        :next-text="next"
+        :click-handler="clickCallback">
+      </paginate>
         <div class ="scrollable">
         <table class="table">
           <thead class="thead-dark">
             <tr>
-              <th scope="col">#</th>
+
               <th scope="col">Operating Year</th>
               <th scope="col">EPA Region</th>
               <th scope="col">EPA State</th>
@@ -190,7 +196,6 @@
           </thead>
           <tbody>
             <tr v-for="(unit, index) in results">
-              <td> {{index }}</td>
               <td>{{ unit.operatingYear }}</td>
               <td>{{unit.EPARegion}}</td>
               <td>{{unit.EPAState}}</td>
@@ -214,6 +219,7 @@
           </tbody>
         </table>  
       </div>
+
       <h2>Graph</h2>
                   <h5>Title description, Sep 2, 2017</h5>
                   <div class="fakeimg">Graph</div>
@@ -266,6 +272,7 @@
 </script>
 <script src="https://unpkg.com/vue"></script>
 <script src = "https://unpkg.com/axios/dist/axios.min.js"> </script>
+<script src="https://unpkg.com/vuejs-paginate@latest"></script>
 <script src = "src/app.js"></script>
   <!--Footer-->
   <!-- start line 112 OneEPA-->
