@@ -17,8 +17,10 @@
       this.getUnitData("/units/findByOperatingYear",this.selected);
     },
     methods: {
+
       getUnitData(section, year) {
-        let url = apiUrl+section+"?operatingYear="+ year;
+        let url = API_URL+section+"?operatingYear="+ year;
+
         console.log(url);
         axios.get(url).then(response => {
         console.log(response.data);

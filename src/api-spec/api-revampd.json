@@ -5,11 +5,6 @@
         "title": "RevAMPD Open API Spec 3.0",
         "version": "1.0"
     },
-    "servers": [
-        {
-            "url": "https://revampd-api.app.cloud.gov"
-        }
-    ],
     "components": {
         "schemas": {
             "Unit": {

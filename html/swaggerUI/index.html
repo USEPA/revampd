@@ -37,9 +37,17 @@
     <script src="./swagger-ui-standalone-preset.js"> </script>
     <script>
     window.onload = function() {
-      // Begin Swagger UI call region
+
+      <!--# if expr="$host = localhost" -->
+      const API_URL = "http://localhost:8080"
+      <!--# else -->
+      const API_URL ="https://revampd-api.app.cloud.gov"
+      <!--# endif -->
+
+      var apiSpecUrl = API_URL + "/swagger/api-revampd.json";
+
       const ui = SwaggerUIBundle({
-        url: "http://localhost:9080/swaggerUI/api-revampd.json",
+        url: apiSpecUrl,
         dom_id: '#swagger-ui',
         deepLinking: true,
         presets: [

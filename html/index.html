@@ -257,15 +257,15 @@
 <div class="jumbotron text-center" style="margin-bottom:0">
   <p>Footer</p>
 </div>
-<script>
-        <!--# if expr="$host = localhost" -->
-        var apiUrl = "http://localhost:8080"
-        <!--# else -->
-        var apiUrl="https://revampd-api.app.cloud.gov"
-        <!--# endif -->
-</script>
 <script src="https://unpkg.com/vue"></script>
 <script src = "https://unpkg.com/axios/dist/axios.min.js"> </script>
+<script>
+  <!--# if expr="$host = localhost" -->
+  const API_URL = "http://localhost:8080"
+  <!--# else -->
+  const API_URL ="https://revampd-api.app.cloud.gov"
+  <!--# endif -->
+</script>
 <script src = "src/app.js"></script>
   <!--Footer-->
   <!-- start line 112 OneEPA-->

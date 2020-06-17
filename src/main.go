@@ -60,12 +60,15 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 	}
 }
 
-//Allows all sites to access the API. This can be fine tuned
-func enableCors(w *http.ResponseWriter) {
-	(*w).Header().Set("Access-Control-Allow-Origin", "*")
+//Enable Cross-Origin Resource Sharing (CORS)
+func enableCors(handler http.Handler) http.Handler {
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		(w).Header().Set("Access-Control-Allow-Origin", "*")
+		handler.ServeHTTP(w, r)
+	})
 }
-func main() {
 
+func main() {
 	dbService, err := CreateDatabaseService()
 
 	if err != nil {
@@ -73,10 +76,13 @@ func main() {
 	}
 
 	http.HandleFunc("/units/findByOperatingYear", func(w http.ResponseWriter, r *http.Request) {
-		enableCors(&w)
 		findUnitsByOperatingYear(w, r, dbService)
 	})
 
+	fs := http.FileServer(http.Dir("./api-spec"))
+	http.Handle("/swagger/", http.StripPrefix("/swagger", fs))
+
 	log.Debug("Starting revAMPD API backend, listening on port " + os.Getenv("PORT"))
-	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
+	//Enable CORS at the server level
+	http.ListenAndServe(":"+os.Getenv("PORT"), enableCors(http.DefaultServeMux))
 }
