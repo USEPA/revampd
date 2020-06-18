@@ -70,17 +70,25 @@ func (dbService *DatabaseService) paginatedUnitsByOperatingYear(year int, limit 
 	rows, err := dbService.database.Queryx("SELECT unitid, op_year, facility_name, oris_code, state, epa_region, unit_type_description, stack_ids, op_status, program_code, primary_fuel_type_desc, primary_fuel_group, an_count_op_time, an_gload, an_sload, an_heat_input, an_co2_mass, an_so2_mass, an_nox_mass FROM UNIT_UNIVERSE where op_year = $1 limit $2 offset $3", year, limit, offset)
 
 	units := []Unit{}
-
 	for rows.Next() {
 		var unit Unit
 		err = rows.StructScan(&unit)
-
 		units = append(units, unit)
-
 		if err != nil {
 			return nil, err
 		}
 	}
 
 	return units, nil
+}
+
+func (dbService *DatabaseService) getTotalNumberOfRows(year int) (int, error) {
+	log.Debug("Getting number of rows for year", year)
+	var count int
+	row := dbService.database.QueryRow("SELECT COUNT(*) FROM UNIT_UNIVERSE WHERE op_year = $1", year)
+	err := row.Scan(&count)
+	if err != nil {
+		return 0, err
+	}
+	return count, nil
 }

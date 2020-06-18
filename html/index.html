@@ -163,9 +163,9 @@
           </option>
         </select>
         <paginate class='pagination'
-        :page-count="10"
-        :prev-text="prev"
-        :next-text="next"
+        :page-count= tableSize
+        :prev-text= prv
+        :next-text= nxt
         :click-handler="clickCallback">
       </paginate>
         <div class ="scrollable">

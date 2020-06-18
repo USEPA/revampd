@@ -62,18 +62,24 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 	}
 
 	units, err := dbService.paginatedUnitsByOperatingYear(year, limit, offset)
-
+	total, err2 := dbService.getTotalNumberOfRows(year)
 	// Check the results
-	if err == nil {
+	if err == nil && err2 == nil {
 		if len(units) == 0 {
 			log.Debug("No units found for year ", year)
 			w.WriteHeader(http.StatusNoContent)
 			w.Write([]byte("No units were found"))
 			return
 		} else {
-			jUnits, err := json.Marshal(units)
+			//jUnits, err := json.Marshal(units)
+			var payload *Payload
+			payload = new(Payload)
+			payload.Units = units
+			payload.MetaData.Retrieved = strconv.Itoa(len(units))
+			payload.MetaData.Total = strconv.Itoa(total)
+			jPayload, err := json.Marshal(payload)
 			if err == nil {
-				w.Write(jUnits)
+				w.Write(jPayload)
 			}
 		}
 	} else {
