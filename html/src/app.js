@@ -24,6 +24,7 @@ Vue.component('paginate', VuejsPaginate)
     },
     methods: {
 
+
       getUnitData(section, year, limit =20, offset=0) {
         this.apiCall = apiUrl+section+"?operatingYear="+ year + "&limit="+limit+ "&offset="+offset
         console.log(this.apiCall);
