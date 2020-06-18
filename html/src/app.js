@@ -24,10 +24,12 @@ Vue.component('paginate', VuejsPaginate)
     },
     methods: {
 
+
       getUnitData(section, year, limit =20, offset=0) {
         this.apiCall = apiUrl+section+"?operatingYear="+ year + "&limit="+limit+ "&offset="+offset
         console.log(this.apiCall);
         axios.get(this.apiCall).then(response => {
+
         console.log(response.data);
         this.tableSize= this.numberOfPages(parseInt(response.data.MetaData.total))
         this.results = response.data.Units;
