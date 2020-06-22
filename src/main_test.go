@@ -37,8 +37,8 @@ func TestFindUnitsByOperatingYear(t *testing.T) {
 	findUnitsByOperatingYear(response, req, dbService)
 
 	if isExpectedResponseCode(t, http.StatusOK, response.Code) {
-		units := make([]Unit, 0)
-		err := json.Unmarshal(response.Body.Bytes(), &units)
+		payload := Payload{}
+		err := json.Unmarshal(response.Body.Bytes(), &payload)
 		if err != nil {
 			t.Errorf("Could not unmarshall JSON response: %s", err)
 		}
