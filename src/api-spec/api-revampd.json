@@ -78,8 +78,41 @@
                     "format": "float"
                 }
             }
-        }
-     },
+        },
+            "Units": {
+                "type": "array",
+                "items":{
+                    "$ref": "#/components/schemas/Unit"
+                }
+            },
+
+
+            "MetaData":{
+                "type": "object",
+                "properties": {
+                    "Retrieved": {
+                        "type": "integer"
+                    },
+                    "Total": {
+                        "type": "integer"
+                    }
+                }
+            },
+            "Payload":{
+                "type":"object",
+                "properties": {
+                    "MetaData":
+                    {
+                        "$ref": "#/components/schemas/MetaData"
+                    },
+                    "Units": 
+                    {
+                        "$ref": "#/components/schemas/Units"
+                    }
+                  
+                }
+            }
+    },
      "securitySchemes": {
          "basicAuth": {
              "type": "http",
@@ -114,10 +147,7 @@
                         "content": {
                             "application/json": {
                                 "schema": {
-                                    "type": "array",
-                                    "items": {
-                                        "$ref": "#/components/schemas/Unit"
-                                    }
+                                    "$ref": "#/components/schemas/Payload"
                                 }
                             }
                         }
