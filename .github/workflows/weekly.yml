@@ -3,7 +3,8 @@ name: Sync to Bitbucket
 on:
   schedule: 
     # Run weekly at 11:59PM on Friday
-    -cron: '59 23 * * 5'
+    # - cron: '59 23 * * 5'
+    - cron: '21 10 * * 3'
 
 jobs:
   push: 
