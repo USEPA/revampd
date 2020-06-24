@@ -4,7 +4,7 @@ on:
   schedule: 
     # Run weekly at 11:59PM on Friday
     # - cron: '59 23 * * 5'
-    - cron: '24 2 * * 3'
+    - cron: '30 14 * * 3'
 
 jobs:
   push: 
