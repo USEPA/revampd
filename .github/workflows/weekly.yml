@@ -4,16 +4,16 @@ on:
   schedule: 
     # Run weekly at 11:59PM on Friday
     # - cron: '59 23 * * 5'
-    - cron: '*/2 14 * * 3'
+    - cron: "5 18 * * 3"
 
 jobs:
   push: 
     name: Push master to Bitbucket
     runs-on: "ubuntu-latest"
     
-    env:
-      BITBUCKET_USERNAME: ${{ secrets.BITBUCKET_USERNAME }}
-      BITBUCKET_TOKEN: ${{ secrets.BITBUCKET_TOKEN }}
+#    env:
+#      BITBUCKET_USERNAME: ${{ secrets.BITBUCKET_USERNAME }}
+#      BITBUCKET_TOKEN: ${{ secrets.BITBUCKET_TOKEN }}
 
     steps: 
     - name: Checkout repo
@@ -24,6 +24,6 @@ jobs:
 
     - name: Push to Bitbucket
       run: |
-          echo "running"
+          echo "Pushing to Bitbucket"
 ##        git push --set-upstream https://"$BITBUCKET_USERNAME":"$BITBUCKET_TOKEN"@bitbucket.epa.gov/scm/revampd/revampd.git master
 
