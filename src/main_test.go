@@ -17,12 +17,12 @@ func TestMain(m *testing.M) {
 
 	dbService, err = CreateDatabaseService()
 
-	if (err != nil || dbService == nil) {
+	if err != nil || dbService == nil {
 		log.Fatal("Could not create database service: " + err.Error())
 	}
-  
+
 	code := m.Run()
- 
+
 	os.Exit(code)
 }
 
@@ -31,14 +31,14 @@ func TestFindUnitsByOperatingYear(t *testing.T) {
 	response := httptest.NewRecorder()
 
 	if err := dbService.database.Ping(); err != nil {
-			log.Println("Database Error ", err)
-		}
+		log.Println("Database Error ", err)
+	}
 
 	findUnitsByOperatingYear(response, req, dbService)
 
 	if isExpectedResponseCode(t, http.StatusOK, response.Code) {
-		units := make([]Unit,0)
-		err := json.Unmarshal(response.Body.Bytes(), &units)
+		payload := Payload{}
+		err := json.Unmarshal(response.Body.Bytes(), &payload)
 		if err != nil {
 			t.Errorf("Could not unmarshall JSON response: %s", err)
 		}
@@ -60,11 +60,34 @@ func TestFindUnitsNoOperatingYear(t *testing.T) {
 
 	findUnitsByOperatingYear(response, req, dbService)
 
-	isExpectedResponseCode(t, http.StatusBadRequest, response.Code)	
+	isExpectedResponseCode(t, http.StatusBadRequest, response.Code)
 }
 
-func isExpectedResponseCode(t *testing.T, expected, actual int) (bool) {
-    if expected != actual {
+func TestpaginatedUnitsNoLimit(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=2018&delimiter=10", nil)
+	response := httptest.NewRecorder()
+
+	findUnitsByOperatingYear(response, req, dbService)
+	isExpectedResponseCode(t, http.StatusOK, response.Code)
+}
+
+func TestpaginatedUnitsNoDelimiter(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=2018&limit=10", nil)
+	response := httptest.NewRecorder()
+
+	findUnitsByOperatingYear(response, req, dbService)
+	isExpectedResponseCode(t, http.StatusOK, response.Code)
+}
+func TestpaginatedUnitsbadDelimiter(t *testing.T) {
+	req, _ := http.NewRequest("GET", "/units/findByOperatingYear?operatingYear=2018&limit=10&delimiter=-3", nil)
+	response := httptest.NewRecorder()
+
+	findUnitsByOperatingYear(response, req, dbService)
+	isExpectedResponseCode(t, http.StatusBadRequest, response.Code)
+}
+
+func isExpectedResponseCode(t *testing.T, expected, actual int) bool {
+	if expected != actual {
 		t.Errorf("Expected response code %d. Got %d\n", expected, actual)
 		return false
 	}
