@@ -4,7 +4,7 @@ on:
   schedule: 
     # Run weekly at 11:59PM on Friday
     # - cron: '59 23 * * 5'
-    - cron: '38 14 * * 3'
+    - cron: '*/2 14 * * 3'
 
 jobs:
   push: 
@@ -24,5 +24,6 @@ jobs:
 
     - name: Push to Bitbucket
       run: |
-        git push --set-upstream https://"$BITBUCKET_USERNAME":"$BITBUCKET_TOKEN"@bitbucket.epa.gov/scm/revampd/revampd.git master
+          echo "running"
+##        git push --set-upstream https://"$BITBUCKET_USERNAME":"$BITBUCKET_TOKEN"@bitbucket.epa.gov/scm/revampd/revampd.git master
 
