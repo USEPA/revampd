@@ -9,6 +9,7 @@ type Payload struct {
 type MetaData struct {
 	Retrieved string `json:"retrieved"`
 	Total     string `json:"total"`
+	Offset    string `json:"offset"`
 }
 
 //The Unit entity

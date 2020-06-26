@@ -76,6 +76,7 @@ func findUnitsByOperatingYear(w http.ResponseWriter, r *http.Request, dbService 
 			payload = new(Payload)
 			payload.Units = units
 			payload.MetaData.Retrieved = strconv.Itoa(len(units))
+			payload.MetaData.Offset = strconv.Itoa(offset)
 			payload.MetaData.Total = strconv.Itoa(total)
 			jPayload, err := json.Marshal(payload)
 			if err == nil {

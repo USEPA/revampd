@@ -95,6 +95,9 @@
                     },
                     "Total": {
                         "type": "integer"
+                    },
+                    "Offset": {
+                        "type": "integer"
                     }
                 }
             },
