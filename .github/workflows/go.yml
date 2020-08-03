@@ -20,8 +20,14 @@ jobs:
 
     - name: Check out code
       uses: actions/checkout@v2
+    
+    - name: Lint Code Base
+      uses: docker://github/super-linter:latest
+      env:
+        VALIDATE_ALL_CODEBASE: false
+        DEFAULT_BRANCH: master
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
      
-
     - name: Build and test
       run: docker-compose run --rm api make && echo "Completed Build and test"
 
