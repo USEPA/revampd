@@ -1,0 +1,33 @@
+{
+      "name": "USEPA/revampd" missing comma here
+      "organization": "usepa",
+      "description": "Basic tutorial for the EPA Clean Air Markets Division to go through the process of creating a small web app, in the problem space of AMPD, with automated tests and deployment to cloud.gov at https://revampd.app.cloud.gov",
+      "version": "",
+      "status": "Development",
+      "permissions": {
+        "usageType": "openSource",
+        "licenses": [
+          {
+            "URL": "https://github.com/USEPA/revampd/blob/master/LICENSE.md"
+          }
+        ]
+      },
+      "homepageURL": "https://github.com/USEPA/revampd",
+      "downloadURL": "https://github.com/USEPA/revampd/archive/master.zip",
+      "disclaimerURL": "https://github.com/USEPA/revampd/blob/master/DISCLAIMER.md",
+      "repositoryURL": "https://github.com/USEPA/revampd.git/",
+      "vcs": "git",
+      "laborHours": 0,
+      "tags": [
+        "usgs"
+      ],
+      "languages": [],
+      "contact": {
+        "name": "USEPA"
+      },
+      "date": {
+        "created": "2019-10-02T18:52:32Z",
+        "lastModified": "2020-10-07T16:06:22Z",
+        "metadataLastUpdated": "2021-02-01T19:55:44.289Z"
+      }
+    }
