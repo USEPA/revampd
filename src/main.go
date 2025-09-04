@@ -31,7 +31,7 @@ func unitRequestParser(w http.ResponseWriter, r *http.Request) (http.ResponseWri
 		return w, 0, 0, 0, errors.New("No operating year")
 	}
 
-	// Check to see if the operating year is a valid int
+	// Check to see if the operating year is a valid integer
 	year, err := strconv.Atoi(years)
 	if err != nil || year < 0 {
 		log.Debug("Can't convert year to int.")
